@@ -1,0 +1,108 @@
+{
+  "user": {
+    "login": "newbie-dev-2020",
+    "public_repos": 12,
+    "followers": 3,
+    "created_at": "2020-02-14T09:00:00Z",
+    "name": "Sam Junior",
+    "twitter_username": null
+  },
+  "repos": [
+    {
+      "name": "todo-app",
+      "fork": false,
+      "stargazers_count": 0,
+      "language": "JavaScript",
+      "pushed_at": "2021-03-10T10:00:00Z",
+      "description": null
+    },
+    {
+      "name": "react-tutorial",
+      "fork": true,
+      "stargazers_count": 0,
+      "language": "JavaScript",
+      "pushed_at": "2021-05-10T10:00:00Z",
+      "description": null
+    },
+    {
+      "name": "netflix-clone",
+      "fork": false,
+      "stargazers_count": 1,
+      "language": "JavaScript",
+      "pushed_at": "2021-08-20T10:00:00Z",
+      "description": "Netflix clone"
+    },
+    {
+      "name": "hello-world",
+      "fork": false,
+      "stargazers_count": 0,
+      "language": "Python",
+      "pushed_at": "2020-03-01T10:00:00Z",
+      "description": null
+    },
+    {
+      "name": "leetcode-solutions",
+      "fork": false,
+      "stargazers_count": 2,
+      "language": "Python",
+      "pushed_at": "2022-01-15T10:00:00Z",
+      "description": "my leetcode"
+    },
+    {
+      "name": "my-portfolio",
+      "fork": false,
+      "stargazers_count": 0,
+      "language": "HTML",
+      "pushed_at": "2022-06-01T10:00:00Z",
+      "description": null
+    },
+    {
+      "name": "dotfiles",
+      "fork": false,
+      "stargazers_count": 0,
+      "language": null,
+      "pushed_at": "2023-04-01T10:00:00Z",
+      "description": null
+    },
+    {
+      "name": "linux",
+      "fork": true,
+      "stargazers_count": 0,
+      "language": "C",
+      "pushed_at": "2021-01-01T10:00:00Z",
+      "description": null
+    },
+    {
+      "name": "awesome-python",
+      "fork": true,
+      "stargazers_count": 0,
+      "language": "Python",
+      "pushed_at": "2021-02-01T10:00:00Z",
+      "description": null
+    },
+    {
+      "name": "first-contributions",
+      "fork": true,
+      "stargazers_count": 0,
+      "language": null,
+      "pushed_at": "2020-09-01T10:00:00Z",
+      "description": null
+    },
+    {
+      "name": "weather-demo",
+      "fork": false,
+      "stargazers_count": 0,
+      "language": "JavaScript",
+      "pushed_at": "2026-09-20T10:00:00Z",
+      "description": "weather"
+    },
+    {
+      "name": "notes",
+      "fork": false,
+      "stargazers_count": 0,
+      "language": "JavaScript",
+      "pushed_at": "2026-10-01T10:00:00Z",
+      "description": null
+    }
+  ]
+}
