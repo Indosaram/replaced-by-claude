@@ -440,10 +440,10 @@
       "id": "reply-antirez",
       "kind": "reply",
       "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 40h 48m. Claude tried to star every one of your 100 repos and got rate limited.",
+      "final": "{context} ran your github through a dumb thing i made and it gave you 40h 48m. Claude tried to star every one of your 112 repos and got rate limited.",
       "ai_score": 1,
       "ai_scores": [
-        1,
+        2,
         1,
         1
       ],
@@ -452,15 +452,15 @@
         "human",
         "human"
       ],
-      "jev": 0.6,
+      "jev": 0.64,
       "rounds": 0,
       "attempts": [
         {
           "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 40h 48m. Claude tried to star every one of your 100 repos and got rate limited.",
+          "text": "{context} ran your github through a dumb thing i made and it gave you 40h 48m. Claude tried to star every one of your 112 repos and got rate limited.",
           "ai": {
             "scores": [
-              1,
+              2,
               1,
               1
             ],
@@ -472,20 +472,27 @@
             "median": 1,
             "ai_votes": 0,
             "pass": true,
-            "tells": [],
-            "rewrite": "Congrats on the launch. Ran your GitHub through a dumb thing I made and got 40h 48m. Claude tried starring all 100 repos and got rate limited."
+            "tells": [
+              "Generic opening, but the oddly specific result and rate-limit detail feel personal.",
+              "The opening congratulations is generic, but the oddly specific result and Claude rate-limit detail feel personal."
+            ],
+            "rewrite": "Congrats on the launch. Ran your GitHub through a dumb thing I made and got 40h 48m. Claude tried starring all 112 repos and got rate limited."
           },
-          "jev": 0.6
+          "jev": 0.64
         }
       ],
       "login": "antirez",
       "x_handle": "antirez",
       "attach": "cards/antirez.png",
       "mild_lines": [
-        "Claude tried to star every one of your 100 repos and got rate limited.",
+        "Claude tried to star every one of your 112 repos and got rate limited.",
         "I wouldn't run gif-pure-tcl without a dependency audit and a snack."
       ],
-      "alternatives_tried": 1
+      "regenerated_after_engine_fix": true,
+      "superseded": {
+        "reason": "engine fix: real repo count + no fork names; card lines changed",
+        "previous_final": "{context} ran your github through a dumb thing i made and it gave you 40h 48m. Claude tried to star every one of your 100 repos and got rate limited."
+      }
     },
     {
       "id": "reply-mitchellh",
@@ -598,10 +605,10 @@
       "id": "reply-addyosmani",
       "kind": "reply",
       "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 42h 38m. I wouldn't run react without a dependency audit and a snack.",
+      "final": "{context} ran your github through a dumb thing i made and it gave you 42h 38m. I wouldn't run preact-hn without a dependency audit and a snack.",
       "ai_score": 1,
       "ai_scores": [
-        2,
+        1,
         1,
         1
       ],
@@ -610,15 +617,15 @@
         "human",
         "human"
       ],
-      "jev": 0.6,
+      "jev": 0.61,
       "rounds": 0,
       "attempts": [
         {
           "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 42h 38m. I wouldn't run react without a dependency audit and a snack.",
+          "text": "{context} ran your github through a dumb thing i made and it gave you 42h 38m. I wouldn't run preact-hn without a dependency audit and a snack.",
           "ai": {
             "scores": [
-              2,
+              1,
               1,
               1
             ],
@@ -630,25 +637,24 @@
             "median": 1,
             "ai_votes": 0,
             "pass": true,
-            "tells": [
-              "The lowercase phrasing is casual and a little rough, but doesn't feel like a press line.",
-              "The final sentence makes an abrupt joke that sounds personal rather than generic.",
-              "The opening congratulations is generic, but the oddly specific 42h 38m and snack joke feel personal.",
-              "The 42h 38m result is unexplained, but the abrupt phrasing feels like a real person posting quickly."
-            ],
-            "rewrite": "Congrats on the launch. My dumb GitHub thing gave you 42h 38m. I'd audit the dependencies before running React, and bring a snack."
+            "tells": [],
+            "rewrite": "Congrats on the launch. Ran your GitHub through a dumb thing I made and got 42h 38m. Wouldn't run preact-hn without a dependency audit and a snack."
           },
-          "jev": 0.6
+          "jev": 0.61
         }
       ],
       "login": "addyosmani",
       "x_handle": "addyosmani",
       "attach": "cards/addyosmani.png",
       "mild_lines": [
-        "I wouldn't run react without a dependency audit and a snack.",
+        "I wouldn't run preact-hn without a dependency audit and a snack.",
         "Your newest repo agent-skills has a description so mysterious it's blank."
       ],
-      "alternatives_tried": 1
+      "regenerated_after_engine_fix": true,
+      "superseded": {
+        "reason": "engine fix: real repo count + no fork names; card lines changed",
+        "previous_final": "{context} ran your github through a dumb thing i made and it gave you 42h 38m. I wouldn't run react without a dependency audit and a snack."
+      }
     },
     {
       "id": "reply-ThePrimeagen",
@@ -902,7 +908,7 @@
       "id": "reply-jaredpalmer",
       "kind": "reply",
       "kept": true,
-      "final": "{context} had to try yours on my little claude timer. 19h 3m. You still count reactjs.org as active because it has a README.",
+      "final": "{context} had to try yours on my little claude timer. 19h 3m. You still count react-router-nextjs-like-data-fetching as active because it has a README.",
       "ai_score": 1,
       "ai_scores": [
         1,
@@ -914,12 +920,12 @@
         "human",
         "human"
       ],
-      "jev": 0.5,
+      "jev": 0.54,
       "rounds": 0,
       "attempts": [
         {
           "round": 0,
-          "text": "{context} had to try yours on my little claude timer. 19h 3m. You still count reactjs.org as active because it has a README.",
+          "text": "{context} had to try yours on my little claude timer. 19h 3m. You still count react-router-nextjs-like-data-fetching as active because it has a README.",
           "ai": {
             "scores": [
               1,
@@ -935,21 +941,25 @@
             "ai_votes": 0,
             "pass": true,
             "tells": [
-              "Specific, slightly rough phrasing feels like a personal reply, not a polished template."
+              "The oddly specific project name and blunt README jab feel personal rather than generic."
             ],
-            "rewrite": "Congrats on the launch. Tried yours on my little Claude timer. 19h 3m. You still count reactjs.org as active because it has a README."
+            "rewrite": "Congrats on the launch. Tried yours on my little Claude timer. 19h 3m, and react-router-nextjs-like-data-fetching still counts as active if it has a README."
           },
-          "jev": 0.5
+          "jev": 0.54
         }
       ],
       "login": "jaredpalmer",
       "x_handle": "jaredpalmer",
       "attach": "cards/jaredpalmer.png",
       "mild_lines": [
-        "You still count reactjs.org as active because it has a README.",
+        "You still count react-router-nextjs-like-data-fetching as active because it has a README.",
         "Is codemods still practice or did you mean to ship it?"
       ],
-      "alternatives_tried": 2
+      "regenerated_after_engine_fix": true,
+      "superseded": {
+        "reason": "engine fix: real repo count + no fork names; card lines changed",
+        "previous_final": "{context} had to try yours on my little claude timer. 19h 3m. You still count reactjs.org as active because it has a README."
+      }
     },
     {
       "id": "reply-wesbos",
@@ -1038,11 +1048,11 @@
       "id": "reply-developit",
       "kind": "reply",
       "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 20h 49m. Out of 100 public repos, kinu was the last one you touched.",
-      "ai_score": 1,
+      "final": "{context} ran your github through a dumb thing i made and it gave you 20h 49m. Out of 351 public repos, kinu was the last one you touched.",
+      "ai_score": 2,
       "ai_scores": [
         2,
-        1,
+        2,
         1
       ],
       "verdicts": [
@@ -1050,16 +1060,16 @@
         "human",
         "human"
       ],
-      "jev": 0.54,
+      "jev": 0.51,
       "rounds": 0,
       "attempts": [
         {
           "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 20h 49m. Out of 100 public repos, kinu was the last one you touched.",
+          "text": "{context} ran your github through a dumb thing i made and it gave you 20h 49m. Out of 351 public repos, kinu was the last one you touched.",
           "ai": {
             "scores": [
               2,
-              1,
+              2,
               1
             ],
             "verdicts": [
@@ -1067,23 +1077,30 @@
               "human",
               "human"
             ],
-            "median": 1,
+            "median": 2,
             "ai_votes": 0,
             "pass": true,
-            "tells": [],
-            "rewrite": "congrats on the launch. my dumb github thing says 20h 49m. kinu was the last of your 100 public repos you touched."
+            "tells": [
+              "The precise time and repo count read a little like a generated report, but the casual phrasing feels human.",
+              "The exact time and repo count are unusually precise, but they sound like results from the tool described."
+            ],
+            "rewrite": "Congrats on the launch. My dumb GitHub thing says 20h 49m, and kinu was the last of your 351 public repos you touched."
           },
-          "jev": 0.54
+          "jev": 0.51
         }
       ],
       "login": "developit",
       "x_handle": "_developit",
       "attach": "cards/developit.png",
       "mild_lines": [
-        "Out of 100 public repos, kinu was the last one you touched.",
+        "Out of 351 public repos, kinu was the last one you touched.",
         "You have 5 tutorial repos and still call it practice."
       ],
-      "alternatives_tried": 1
+      "regenerated_after_engine_fix": true,
+      "superseded": {
+        "reason": "engine fix: real repo count + no fork names; card lines changed",
+        "previous_final": "{context} ran your github through a dumb thing i made and it gave you 20h 49m. Out of 100 public repos, kinu was the last one you touched."
+      }
     },
     {
       "id": "reply-kettanaito",
@@ -1191,11 +1208,11 @@
       "id": "reply-colinhacks",
       "kind": "reply",
       "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 31h 46m. Claude checked smoke-tests and the tutorial's been going on a bit, huh.",
-      "ai_score": 2,
+      "final": "{context} ran your github through a dumb thing i made and it gave you 31h 46m. Claude checked edgedb-remix-test-2 and the tutorial's been going on a bit, huh.",
+      "ai_score": 3,
       "ai_scores": [
-        2,
-        2,
+        3,
+        3,
         2
       ],
       "verdicts": [
@@ -1203,16 +1220,16 @@
         "human",
         "human"
       ],
-      "jev": 0.6,
+      "jev": 0.55,
       "rounds": 0,
       "attempts": [
         {
           "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 31h 46m. Claude checked smoke-tests and the tutorial's been going on a bit, huh.",
+          "text": "{context} ran your github through a dumb thing i made and it gave you 31h 46m. Claude checked edgedb-remix-test-2 and the tutorial's been going on a bit, huh.",
           "ai": {
             "scores": [
-              2,
-              2,
+              3,
+              3,
               2
             ],
             "verdicts": [
@@ -1220,28 +1237,34 @@
               "human",
               "human"
             ],
-            "median": 2,
+            "median": 3,
             "ai_votes": 0,
             "pass": true,
             "tells": [
-              "“Claude checked smoke-tests” is a little unclear.",
-              "“the tutorial's been going on a bit, huh” feels slightly constructed.",
-              "Generic launch congratulations, but the specific number and slightly awkward phrasing feel human.",
-              "“congrats on the launch” is a familiar, generic opener, but the specific tool result and casual phrasing feel personal."
+              "The setup followed by a neatly stated result feels slightly polished.",
+              "Generic 'congrats on the launch' opener",
+              "The precise time reads a little calculated",
+              "The last two sentences feel slightly awkward",
+              "The precise time reads like a tool result, but the casual phrasing feels personal.",
+              "“gave you 31h 46m” is slightly awkward."
             ],
-            "rewrite": "Congrats on the launch. Ran your GitHub through a dumb thing I made and got 31h 46m. Claude checked smoke-tests, and that tutorial's been going on a bit."
+            "rewrite": "Congrats on the launch. My dumb thing says 31h 46m for your GitHub. Claude checked edgedb-remix-test-2, and that tutorial's been going a while."
           },
-          "jev": 0.6
+          "jev": 0.55
         }
       ],
       "login": "colinhacks",
       "x_handle": "colinhacks",
       "attach": "cards/colinhacks.png",
       "mild_lines": [
-        "Claude checked smoke-tests and the tutorial's been going on a bit, huh.",
+        "Claude checked edgedb-remix-test-2 and the tutorial's been going on a bit, huh.",
         "You write code for zod but not one sentence about it."
       ],
-      "alternatives_tried": 1
+      "regenerated_after_engine_fix": true,
+      "superseded": {
+        "reason": "engine fix: real repo count + no fork names; card lines changed",
+        "previous_final": "{context} ran your github through a dumb thing i made and it gave you 31h 46m. Claude checked smoke-tests and the tutorial's been going on a bit, huh."
+      }
     },
     {
       "id": "reply-simonw",
@@ -1526,7 +1549,7 @@
       "id": "reply-ryanflorence",
       "kind": "reply",
       "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 29h 34m. Claude opened react-idle and the lockfile made no sense.",
+      "final": "{context} also my silly github roaster says claude needs 29h 34m for you. You finished the tutorial before you finished testing-123.",
       "ai_score": 2,
       "ai_scores": [
         2,
@@ -1543,7 +1566,7 @@
       "attempts": [
         {
           "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 29h 34m. Claude opened react-idle and the lockfile made no sense.",
+          "text": "{context} also my silly github roaster says claude needs 29h 34m for you. You finished the tutorial before you finished testing-123.",
           "ai": {
             "scores": [
               2,
@@ -1559,9 +1582,13 @@
             "ai_votes": 0,
             "pass": true,
             "tells": [
-              "“Claude opened react-idle” is a little unclear, but the specific details and casual phrasing feel human."
+              "Generic congratulations opener",
+              "Awkward phrasing feels more like a quick personal joke than generated copy",
+              "The lowercase phrasing and slightly awkward joke read like a quick personal reply.",
+              "The lowercase, slightly awkward phrasing feels typed casually.",
+              "“testing-123” is unclear, but reads more like a specific reference than generated polish."
             ],
-            "rewrite": "congrats on the launch. ran your github through a dumb thing i made and got 29h 34m. Claude opened react-idle and the lockfile made no sense."
+            "rewrite": "Congrats on the launch. My silly GitHub roaster says Claude needs 29h 34m for you. You finished the tutorial before you finished testing-123."
           },
           "jev": 0.54
         }
@@ -1570,10 +1597,14 @@
       "x_handle": "ryanflorence",
       "attach": "cards/ryanflorence.png",
       "mild_lines": [
-        "Claude opened react-idle and the lockfile made no sense.",
+        "You finished the tutorial before you finished testing-123.",
         "Did git-viewer ship or did the description just never load?"
       ],
-      "alternatives_tried": 1
+      "regenerated_after_engine_fix": true,
+      "superseded": {
+        "reason": "engine fix: real repo count + no fork names; card lines changed",
+        "previous_final": "{context} ran your github through a dumb thing i made and it gave you 29h 34m. Claude opened react-idle and the lockfile made no sense."
+      }
     }
   ]
 }

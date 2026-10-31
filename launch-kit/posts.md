@@ -58,7 +58,7 @@ Attach: `cards/yyx990803.png`
 Attach: `cards/antirez.png`
 
 ```
-{context} ran your github through a dumb thing i made and it gave you 40h 48m. Claude tried to star every one of your 100 repos and got rate limited.
+{context} ran your github through a dumb thing i made and it gave you 40h 48m. Claude tried to star every one of your 112 repos and got rate limited.
 ```
 
 ### mitchellh (X: mitchellh)
@@ -82,7 +82,7 @@ Attach: `cards/kentcdodds.png`
 Attach: `cards/addyosmani.png`
 
 ```
-{context} ran your github through a dumb thing i made and it gave you 42h 38m. I wouldn't run react without a dependency audit and a snack.
+{context} ran your github through a dumb thing i made and it gave you 42h 38m. I wouldn't run preact-hn without a dependency audit and a snack.
 ```
 
 ### ThePrimeagen (X: ThePrimeagen)
@@ -122,7 +122,7 @@ Attach: `cards/dhh.png`
 Attach: `cards/jaredpalmer.png`
 
 ```
-{context} had to try yours on my little claude timer. 19h 3m. You still count reactjs.org as active because it has a README.
+{context} had to try yours on my little claude timer. 19h 3m. You still count react-router-nextjs-like-data-fetching as active because it has a README.
 ```
 
 ### wesbos (X: wesbos)
@@ -138,7 +138,7 @@ Attach: `cards/wesbos.png`
 Attach: `cards/developit.png`
 
 ```
-{context} ran your github through a dumb thing i made and it gave you 20h 49m. Out of 100 public repos, kinu was the last one you touched.
+{context} ran your github through a dumb thing i made and it gave you 20h 49m. Out of 351 public repos, kinu was the last one you touched.
 ```
 
 ### kettanaito (X: kettanaito)
@@ -162,7 +162,7 @@ Attach: `cards/tannerlinsley.png`
 Attach: `cards/colinhacks.png`
 
 ```
-{context} ran your github through a dumb thing i made and it gave you 31h 46m. Claude checked smoke-tests and the tutorial's been going on a bit, huh.
+{context} ran your github through a dumb thing i made and it gave you 31h 46m. Claude checked edgedb-remix-test-2 and the tutorial's been going on a bit, huh.
 ```
 
 ### simonw (X: simonw)
@@ -194,5 +194,5 @@ Attach: `cards/mjackson.png`
 Attach: `cards/ryanflorence.png`
 
 ```
-{context} ran your github through a dumb thing i made and it gave you 29h 34m. Claude opened react-idle and the lockfile made no sense.
+{context} also my silly github roaster says claude needs 29h 34m for you. You finished the tutorial before you finished testing-123.
 ```
