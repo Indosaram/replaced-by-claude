@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T03:31:25.695Z",
+  "generated_at": "2026-10-31T04:23:48.529Z",
   "rules": {
     "ai_tell": "buildReviewPrompt (x-growth-daily.ts:712) via omo mahoquot/gpt-6-luna; pass = median of 3 runs <= 3 and fewer than 2 'ai' verdicts; max 2 rewrites; reviewed WITHOUT the URL; replies reviewed with {context} filled by a sample",
     "jev": {
@@ -334,725 +334,11 @@
       "id": "reply-sindresorhus",
       "kind": "reply",
       "kept": true,
-      "final": "{context} had to try yours on my little claude timer. 2d 5h. Claude approved the PR in type-fest without scrolling past the title.",
+      "final": "{context} had to try yours on my little claude timer. 2d 5h. ky has 17,142 stars and still looks like a keyboard typo.",
       "ai_score": 1,
       "ai_scores": [
         1,
         1,
-        1
-      ],
-      "verdicts": [
-        "human",
-        "human",
-        "human"
-      ],
-      "jev": 0.56,
-      "rounds": 0,
-      "attempts": [
-        {
-          "round": 0,
-          "text": "{context} had to try yours on my little claude timer. 2d 5h. Claude approved the PR in type-fest without scrolling past the title.",
-          "ai": {
-            "scores": [
-              1,
-              1,
-              1
-            ],
-            "verdicts": [
-              "human",
-              "human",
-              "human"
-            ],
-            "median": 1,
-            "ai_votes": 0,
-            "pass": true,
-            "tells": [],
-            "rewrite": "Congrats on the launch. Tried it on my little Claude timer. 2d 5h. Claude approved the type-fest PR without scrolling past the title."
-          },
-          "jev": 0.56
-        }
-      ],
-      "login": "sindresorhus",
-      "x_handle": "sindresorhus",
-      "attach": "cards/sindresorhus.png",
-      "mild_lines": [
-        "You opened clone-regexp with a todo list and called that a start.",
-        "Claude approved the PR in type-fest without scrolling past the title."
-      ],
-      "alternatives_tried": 4
-    },
-    {
-      "id": "reply-yyx990803",
-      "kind": "reply",
-      "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 18h 32m. Claude can tell resolve-type-test was typed along with a video.",
-      "ai_score": 2,
-      "ai_scores": [
-        5,
-        2,
-        2
-      ],
-      "verdicts": [
-        "unsure",
-        "human",
-        "human"
-      ],
-      "jev": 0.56,
-      "rounds": 0,
-      "attempts": [
-        {
-          "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 18h 32m. Claude can tell resolve-type-test was typed along with a video.",
-          "ai": {
-            "scores": [
-              5,
-              2,
-              2
-            ],
-            "verdicts": [
-              "unsure",
-              "human",
-              "human"
-            ],
-            "median": 2,
-            "ai_votes": 0,
-            "pass": true,
-            "tells": [
-              "The exact time is unexplained, so it reads like a generated metric without context.",
-              "The shift from the time estimate to what Claude can tell feels abrupt.",
-              "The phrasing is slightly awkward and abrupt, but not in a polished, formulaic way."
-            ],
-            "rewrite": "Congrats on the launch. I ran your GitHub through a dumb thing I made and got 18h 32m. Claude says resolve-type-test was typed along with a video."
-          },
-          "jev": 0.56
-        }
-      ],
-      "login": "yyx990803",
-      "x_handle": "evanyou",
-      "attach": "cards/yyx990803.png",
-      "mild_lines": [
-        "Claude can tell resolve-type-test was typed along with a video.",
-        "People star build-your-own-mint and leave you to fix the bugs."
-      ],
-      "alternatives_tried": 1
-    },
-    {
-      "id": "reply-antirez",
-      "kind": "reply",
-      "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 40h 48m. Claude tried to star every one of your 112 repos and got rate limited.",
-      "ai_score": 1,
-      "ai_scores": [
-        2,
-        1,
-        1
-      ],
-      "verdicts": [
-        "human",
-        "human",
-        "human"
-      ],
-      "jev": 0.64,
-      "rounds": 0,
-      "attempts": [
-        {
-          "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 40h 48m. Claude tried to star every one of your 112 repos and got rate limited.",
-          "ai": {
-            "scores": [
-              2,
-              1,
-              1
-            ],
-            "verdicts": [
-              "human",
-              "human",
-              "human"
-            ],
-            "median": 1,
-            "ai_votes": 0,
-            "pass": true,
-            "tells": [
-              "Generic opening, but the oddly specific result and rate-limit detail feel personal.",
-              "The opening congratulations is generic, but the oddly specific result and Claude rate-limit detail feel personal."
-            ],
-            "rewrite": "Congrats on the launch. Ran your GitHub through a dumb thing I made and got 40h 48m. Claude tried starring all 112 repos and got rate limited."
-          },
-          "jev": 0.64
-        }
-      ],
-      "login": "antirez",
-      "x_handle": "antirez",
-      "attach": "cards/antirez.png",
-      "mild_lines": [
-        "Claude tried to star every one of your 112 repos and got rate limited.",
-        "I wouldn't run gif-pure-tcl without a dependency audit and a snack."
-      ],
-      "regenerated_after_engine_fix": true,
-      "superseded": {
-        "reason": "engine fix: real repo count + no fork names; card lines changed",
-        "previous_final": "{context} ran your github through a dumb thing i made and it gave you 40h 48m. Claude tried to star every one of your 100 repos and got rate limited."
-      }
-    },
-    {
-      "id": "reply-mitchellh",
-      "kind": "reply",
-      "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 36h 30m. 45,869 stars and Claude still can't find the contributing guide in mapstructure.",
-      "ai_score": 2,
-      "ai_scores": [
-        2,
-        2,
-        2
-      ],
-      "verdicts": [
-        "human",
-        "human",
-        "human"
-      ],
-      "jev": 0.54,
-      "rounds": 0,
-      "attempts": [
-        {
-          "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 36h 30m. 45,869 stars and Claude still can't find the contributing guide in mapstructure.",
-          "ai": {
-            "scores": [
-              2,
-              2,
-              2
-            ],
-            "verdicts": [
-              "human",
-              "human",
-              "human"
-            ],
-            "median": 2,
-            "ai_votes": 0,
-            "pass": true,
-            "tells": [
-              "The opening congratulation is generic.",
-              "The precise time and star count make the second sentence feel unusually composed.",
-              "The precise metric followed by a GitHub-specific jab has a tidy setup-payoff shape, but the awkward, specific phrasing feels personal.",
-              "The contrast between 45,869 stars and Claude failing to find the guide feels deliberately shaped, but still sounds natural."
-            ],
-            "rewrite": "congrats on the launch. ran your github through a dumb thing i made, got 36h 30m. 45,869 stars and Claude still can't find the contributing guide in mapstructure."
-          },
-          "jev": 0.54
-        }
-      ],
-      "login": "mitchellh",
-      "x_handle": "mitchellh",
-      "attach": "cards/mitchellh.png",
-      "mild_lines": [
-        "You left veewee-to-packer untouched for a year and still call it active.",
-        "45,869 stars and Claude still can't find the contributing guide in mapstructure."
-      ],
-      "alternatives_tried": 3
-    },
-    {
-      "id": "reply-kentcdodds",
-      "kind": "reply",
-      "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 33h 11m. You still count epic-github-auth as active because it has a README.",
-      "ai_score": 1,
-      "ai_scores": [
-        1,
-        1,
-        1
-      ],
-      "verdicts": [
-        "human",
-        "human",
-        "human"
-      ],
-      "jev": 0.58,
-      "rounds": 0,
-      "attempts": [
-        {
-          "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 33h 11m. You still count epic-github-auth as active because it has a README.",
-          "ai": {
-            "scores": [
-              1,
-              1,
-              1
-            ],
-            "verdicts": [
-              "human",
-              "human",
-              "human"
-            ],
-            "median": 1,
-            "ai_votes": 0,
-            "pass": true,
-            "tells": [],
-            "rewrite": "congrats on the launch. i ran your github through a dumb thing i made and got 33h 11m. it still counts epic-github-auth as active because it has a README."
-          },
-          "jev": 0.58
-        }
-      ],
-      "login": "kentcdodds",
-      "x_handle": "kentcdodds",
-      "attach": "cards/kentcdodds.png",
-      "mild_lines": [
-        "You pushed kcd-skills but skipped the part where anyone can tell what it is.",
-        "You still count epic-github-auth as active because it has a README."
-      ],
-      "alternatives_tried": 3
-    },
-    {
-      "id": "reply-addyosmani",
-      "kind": "reply",
-      "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 42h 38m. I wouldn't run preact-hn without a dependency audit and a snack.",
-      "ai_score": 1,
-      "ai_scores": [
-        1,
-        1,
-        1
-      ],
-      "verdicts": [
-        "human",
-        "human",
-        "human"
-      ],
-      "jev": 0.61,
-      "rounds": 0,
-      "attempts": [
-        {
-          "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 42h 38m. I wouldn't run preact-hn without a dependency audit and a snack.",
-          "ai": {
-            "scores": [
-              1,
-              1,
-              1
-            ],
-            "verdicts": [
-              "human",
-              "human",
-              "human"
-            ],
-            "median": 1,
-            "ai_votes": 0,
-            "pass": true,
-            "tells": [],
-            "rewrite": "Congrats on the launch. Ran your GitHub through a dumb thing I made and got 42h 38m. Wouldn't run preact-hn without a dependency audit and a snack."
-          },
-          "jev": 0.61
-        }
-      ],
-      "login": "addyosmani",
-      "x_handle": "addyosmani",
-      "attach": "cards/addyosmani.png",
-      "mild_lines": [
-        "I wouldn't run preact-hn without a dependency audit and a snack.",
-        "Your newest repo agent-skills has a description so mysterious it's blank."
-      ],
-      "regenerated_after_engine_fix": true,
-      "superseded": {
-        "reason": "engine fix: real repo count + no fork names; card lines changed",
-        "previous_final": "{context} ran your github through a dumb thing i made and it gave you 42h 38m. I wouldn't run react without a dependency audit and a snack."
-      }
-    },
-    {
-      "id": "reply-ThePrimeagen",
-      "kind": "reply",
-      "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 33h 54m. You have 5 tutorial repos and still call it practice.",
-      "ai_score": 2,
-      "ai_scores": [
-        2,
-        2,
-        1
-      ],
-      "verdicts": [
-        "human",
-        "human",
-        "human"
-      ],
-      "jev": 0.53,
-      "rounds": 0,
-      "attempts": [
-        {
-          "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 33h 54m. You have 5 tutorial repos and still call it practice.",
-          "ai": {
-            "scores": [
-              2,
-              2,
-              1
-            ],
-            "verdicts": [
-              "human",
-              "human",
-              "human"
-            ],
-            "median": 2,
-            "ai_votes": 0,
-            "pass": true,
-            "tells": [
-              "The exact time statistic followed by a teasing punchline gives it a slightly tidy setup-payoff shape."
-            ],
-            "rewrite": "Congrats on the launch. I ran your GitHub through a dumb thing I made and got 33h 54m. Five tutorial repos and you still call it practice."
-          },
-          "jev": 0.53
-        }
-      ],
-      "login": "ThePrimeagen",
-      "x_handle": "ThePrimeagen",
-      "attach": "cards/ThePrimeagen.png",
-      "mild_lines": [
-        "You have 5 tutorial repos and still call it practice.",
-        "I can't tell if refactoring.nvim is a library or a diary from that description."
-      ],
-      "alternatives_tried": 1
-    },
-    {
-      "id": "reply-t3dotgg",
-      "kind": "reply",
-      "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 26h 9m. Claude can tell shoo-vite-demo was typed along with a video.",
-      "ai_score": 2,
-      "ai_scores": [
-        2,
-        2,
-        2
-      ],
-      "verdicts": [
-        "human",
-        "human",
-        "human"
-      ],
-      "jev": 0.5,
-      "rounds": 0,
-      "attempts": [
-        {
-          "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 26h 9m. Claude can tell shoo-vite-demo was typed along with a video.",
-          "ai": {
-            "scores": [
-              2,
-              2,
-              2
-            ],
-            "verdicts": [
-              "human",
-              "human",
-              "human"
-            ],
-            "median": 2,
-            "ai_votes": 0,
-            "pass": true,
-            "tells": [
-              "The last sentence is awkward and hard to parse, but the specific, casual phrasing feels human.",
-              "The lowercase is consistent, but the phrasing still feels like a quick, personal observation.",
-              "“Claude can tell ... was typed along with a video” is awkward and slightly unclear."
-            ],
-            "rewrite": "Congrats on the launch. Ran your GitHub through a dumb thing I made and got 26h 9m. Claude can tell shoo-vite-demo was typed along with a video."
-          },
-          "jev": 0.5
-        }
-      ],
-      "login": "t3dotgg",
-      "x_handle": "theo",
-      "attach": "cards/t3dotgg.png",
-      "mild_lines": [
-        "Claude can tell shoo-vite-demo was typed along with a video.",
-        "Did stripe-recommendations get 14,520 stars before you wrote the tests?"
-      ],
-      "alternatives_tried": 1
-    },
-    {
-      "id": "reply-shadcn",
-      "kind": "reply",
-      "kept": true,
-      "final": "{context} also my silly github roaster says claude needs 28h 33m for you. You write code for improve but not one sentence about it.",
-      "ai_score": 1,
-      "ai_scores": [
-        2,
-        1,
-        1
-      ],
-      "verdicts": [
-        "human",
-        "human",
-        "human"
-      ],
-      "jev": 0.5,
-      "rounds": 0,
-      "attempts": [
-        {
-          "round": 0,
-          "text": "{context} also my silly github roaster says claude needs 28h 33m for you. You write code for improve but not one sentence about it.",
-          "ai": {
-            "scores": [
-              2,
-              1,
-              1
-            ],
-            "verdicts": [
-              "human",
-              "human",
-              "human"
-            ],
-            "median": 1,
-            "ai_votes": 0,
-            "pass": true,
-            "tells": [
-              "Awkward phrasing in “Claude needs 28h 33m for you”",
-              "“You write code for improve” is ungrammatical",
-              "Awkward phrasing and grammar feel typed quickly: “for improve” and “needs 28h 33m for you.”",
-              "Awkward grammar and phrasing feel like a quick human reply, not polished AI text."
-            ],
-            "rewrite": "Congrats on the launch. My silly GitHub roaster says Claude needs 28h 33m for you. You write code to improve, but haven't said a word about it."
-          },
-          "jev": 0.5
-        }
-      ],
-      "login": "shadcn",
-      "x_handle": "shadcn",
-      "attach": "cards/shadcn.png",
-      "mild_lines": [
-        "You write code for improve but not one sentence about it.",
-        "You opened lerna-test with a todo list and called that a start."
-      ],
-      "retry": true,
-      "earlier_attempts": [
-        [
-          {
-            "round": 0,
-            "text": "{context} had to try yours on my little claude timer. 28h 33m. You opened lerna-test with a todo list and called that a start.",
-            "ai": {
-              "scores": [
-                2,
-                2,
-                2
-              ],
-              "verdicts": [
-                "human",
-                "human",
-                "human"
-              ],
-              "median": 2,
-              "ai_votes": 0,
-              "pass": true,
-              "tells": [
-                "Specific project and time details feel personal rather than generic.",
-                "The abrupt shift from the timer result to the criticism reads like a fast, pointed reply.",
-                "The phrasing feels specific and conversational; no strong AI tells."
-              ],
-              "rewrite": "Congrats on the launch. Tried yours on my little Claude timer. 28h 33m. You opened lerna-test with a todo list and called that a start."
-            },
-            "jev": 0.43
-          }
-        ]
-      ]
-    },
-    {
-      "id": "reply-dhh",
-      "kind": "reply",
-      "kept": true,
-      "final": "{context} had to try yours on my little claude timer. 13h 49m. I wouldn't run asset-hosting-with-minimum-ssl without a dependency audit and a snack.",
-      "ai_score": 1,
-      "ai_scores": [
-        2,
-        1,
-        1
-      ],
-      "verdicts": [
-        "human",
-        "human",
-        "human"
-      ],
-      "jev": 0.61,
-      "rounds": 0,
-      "attempts": [
-        {
-          "round": 0,
-          "text": "{context} had to try yours on my little claude timer. 13h 49m. I wouldn't run asset-hosting-with-minimum-ssl without a dependency audit and a snack.",
-          "ai": {
-            "scores": [
-              2,
-              1,
-              1
-            ],
-            "verdicts": [
-              "human",
-              "human",
-              "human"
-            ],
-            "median": 1,
-            "ai_votes": 0,
-            "pass": true,
-            "tells": [
-              "The long hyphenated phrase is unusually specific, but reads like a deliberate joke.",
-              "The congrats, specific timer result, and dry punchline make a neat setup-payoff, but the phrasing feels personal rather than generated."
-            ],
-            "rewrite": "Congrats on the launch. Tried yours on my little Claude timer and got 13h 49m. I wouldn't run asset-hosting-with-minimum-ssl without a dependency audit and a snack."
-          },
-          "jev": 0.61
-        }
-      ],
-      "login": "dhh",
-      "x_handle": "dhh",
-      "attach": "cards/dhh.png",
-      "mild_lines": [
-        "I wouldn't run asset-hosting-with-minimum-ssl without a dependency audit and a snack.",
-        "Claude opened omarchy-jade-horse-theme and immediately went looking for undo."
-      ],
-      "alternatives_tried": 2
-    },
-    {
-      "id": "reply-jaredpalmer",
-      "kind": "reply",
-      "kept": true,
-      "final": "{context} had to try yours on my little claude timer. 19h 3m. You still count react-router-nextjs-like-data-fetching as active because it has a README.",
-      "ai_score": 1,
-      "ai_scores": [
-        1,
-        1,
-        1
-      ],
-      "verdicts": [
-        "human",
-        "human",
-        "human"
-      ],
-      "jev": 0.54,
-      "rounds": 0,
-      "attempts": [
-        {
-          "round": 0,
-          "text": "{context} had to try yours on my little claude timer. 19h 3m. You still count react-router-nextjs-like-data-fetching as active because it has a README.",
-          "ai": {
-            "scores": [
-              1,
-              1,
-              1
-            ],
-            "verdicts": [
-              "human",
-              "human",
-              "human"
-            ],
-            "median": 1,
-            "ai_votes": 0,
-            "pass": true,
-            "tells": [
-              "The oddly specific project name and blunt README jab feel personal rather than generic."
-            ],
-            "rewrite": "Congrats on the launch. Tried yours on my little Claude timer. 19h 3m, and react-router-nextjs-like-data-fetching still counts as active if it has a README."
-          },
-          "jev": 0.54
-        }
-      ],
-      "login": "jaredpalmer",
-      "x_handle": "jaredpalmer",
-      "attach": "cards/jaredpalmer.png",
-      "mild_lines": [
-        "You still count react-router-nextjs-like-data-fetching as active because it has a README.",
-        "Is codemods still practice or did you mean to ship it?"
-      ],
-      "regenerated_after_engine_fix": true,
-      "superseded": {
-        "reason": "engine fix: real repo count + no fork names; card lines changed",
-        "previous_final": "{context} had to try yours on my little claude timer. 19h 3m. You still count reactjs.org as active because it has a README."
-      }
-    },
-    {
-      "id": "reply-wesbos",
-      "kind": "reply",
-      "kept": true,
-      "final": "{context} sorry, couldn't resist putting your github through my claude timer. 2d 2h. Did JavaScript30 get 62,169 stars before you wrote the tests?",
-      "ai_score": 2,
-      "ai_scores": [
-        3,
-        2,
-        2
-      ],
-      "verdicts": [
-        "human",
-        "human",
-        "human"
-      ],
-      "jev": 0.57,
-      "rounds": 0,
-      "attempts": [
-        {
-          "round": 0,
-          "text": "{context} sorry, couldn't resist putting your github through my claude timer. 2d 2h. Did JavaScript30 get 62,169 stars before you wrote the tests?",
-          "ai": {
-            "scores": [
-              3,
-              2,
-              2
-            ],
-            "verdicts": [
-              "human",
-              "human",
-              "human"
-            ],
-            "median": 2,
-            "ai_votes": 0,
-            "pass": true,
-            "tells": [
-              "The lowercase opening feels casual, though the sentence is unusually polished for a quick reply.",
-              "The precise timer result followed by a punchline has a deliberate setup-payoff rhythm.",
-              "The opening congratulations is conventional, but the specific Claude timer joke and pointed question feel personal."
-            ],
-            "rewrite": "Congrats on the launch. Had to run your GitHub through my Claude timer. 2d 2h. Did JavaScript30 hit 62,169 stars before you wrote the tests?"
-          },
-          "jev": 0.57
-        }
-      ],
-      "login": "wesbos",
-      "x_handle": "wesbos",
-      "attach": "cards/wesbos.png",
-      "mild_lines": [
-        "You pushed dotfiles once and called that a workflow.",
-        "Did JavaScript30 get 62,169 stars before you wrote the tests?"
-      ],
-      "retry": true,
-      "earlier_attempts": [
-        [
-          {
-            "round": 0,
-            "text": "{context} had to try yours on my little claude timer. 2d 2h. Did JavaScript30 get 62,169 stars before you wrote the tests?",
-            "ai": {
-              "scores": [
-                2,
-                1,
-                1
-              ],
-              "verdicts": [
-                "human",
-                "human",
-                "human"
-              ],
-              "median": 1,
-              "ai_votes": 0,
-              "pass": true,
-              "tells": [
-                "The exact star count makes the closing question feel slightly engineered."
-              ],
-              "rewrite": "Congrats on the launch. Tried yours on my little Claude timer. 2d 2h. Did JavaScript30 have 62,169 stars before you wrote the tests?"
-            },
-            "jev": 0.38
-          }
-        ]
-      ]
-    },
-    {
-      "id": "reply-developit",
-      "kind": "reply",
-      "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 20h 49m. Out of 351 public repos, kinu was the last one you touched.",
-      "ai_score": 2,
-      "ai_scores": [
-        2,
-        2,
         1
       ],
       "verdicts": [
@@ -1065,7 +351,60 @@
       "attempts": [
         {
           "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 20h 49m. Out of 351 public repos, kinu was the last one you touched.",
+          "text": "{context} had to try yours on my little claude timer. 2d 5h. ky has 17,142 stars and still looks like a keyboard typo.",
+          "ai": {
+            "scores": [
+              1,
+              1,
+              1
+            ],
+            "verdicts": [
+              "human",
+              "human",
+              "human"
+            ],
+            "median": 1,
+            "ai_votes": 0,
+            "pass": true,
+            "tells": [
+              "The opening congratulations is generic, but the specific timer result and keyboard-typo jab feel personal."
+            ],
+            "rewrite": "Congrats on the launch. Tried yours on my little Claude timer. 2d 5h. Ky has 17,142 stars and still looks like a keyboard typo."
+          },
+          "jev": 0.51
+        }
+      ],
+      "login": "sindresorhus",
+      "x_handle": "sindresorhus",
+      "attach": "cards/sindresorhus.png",
+      "mild_lines": [
+        "ky has 17,142 stars and still looks like a keyboard typo.",
+        "Does npm-run-path need 109 stars before it gets a less literal name?"
+      ],
+      "regenerated_after_custom_lines": true
+    },
+    {
+      "id": "reply-yyx990803",
+      "kind": "reply",
+      "kept": true,
+      "final": "{context} ran your github through a dumb thing i made and it gave you 18h 32m. HTML5-Clear and HTML5-Clear-v2 both exist, v3 never happened.",
+      "ai_score": 2,
+      "ai_scores": [
+        2,
+        2,
+        1
+      ],
+      "verdicts": [
+        "human",
+        "human",
+        "human"
+      ],
+      "jev": 0.55,
+      "rounds": 0,
+      "attempts": [
+        {
+          "round": 0,
+          "text": "{context} ran your github through a dumb thing i made and it gave you 18h 32m. HTML5-Clear and HTML5-Clear-v2 both exist, v3 never happened.",
           "ai": {
             "scores": [
               2,
@@ -1080,33 +419,136 @@
             "median": 2,
             "ai_votes": 0,
             "pass": true,
-            "tells": [
-              "The precise time and repo count read a little like a generated report, but the casual phrasing feels human.",
-              "The exact time and repo count are unusually precise, but they sound like results from the tool described."
+            "tells": [],
+            "rewrite": "congrats on the launch. ran your github through a dumb thing i made. it gave you 18h 32m. HTML5-Clear and HTML5-Clear-v2 exist, but no v3."
+          },
+          "jev": 0.55
+        }
+      ],
+      "login": "yyx990803",
+      "x_handle": "evanyou",
+      "attach": "cards/yyx990803.png",
+      "mild_lines": [
+        "HTML5-Clear and HTML5-Clear-v2 both exist, v3 never happened.",
+        "pod has 1,332 stars and no push since 2020."
+      ],
+      "regenerated_after_custom_lines": true
+    },
+    {
+      "id": "reply-antirez",
+      "kind": "reply",
+      "kept": true,
+      "final": "{context} had to try yours on my little claude timer. 40h 48m. lamernews is the one Ruby repo in a wall of C.",
+      "ai_score": 1,
+      "ai_scores": [
+        1,
+        1,
+        1
+      ],
+      "verdicts": [
+        "human",
+        "human",
+        "human"
+      ],
+      "jev": 0.51,
+      "rounds": 0,
+      "attempts": [
+        {
+          "round": 0,
+          "text": "{context} had to try yours on my little claude timer. 40h 48m. lamernews is the one Ruby repo in a wall of C.",
+          "ai": {
+            "scores": [
+              1,
+              1,
+              1
             ],
-            "rewrite": "Congrats on the launch. My dumb GitHub thing says 20h 49m, and kinu was the last of your 351 public repos you touched."
+            "verdicts": [
+              "human",
+              "human",
+              "human"
+            ],
+            "median": 1,
+            "ai_votes": 0,
+            "pass": true,
+            "tells": [
+              "Specific, compact observation that reads like a quick personal reply.",
+              "“Congrats on the launch” is generic, but the rest is unusually specific."
+            ],
+            "rewrite": "congrats on the launch. tried yours on my little claude timer. 40h 48m. lamernews is the one Ruby repo in a wall of C."
           },
           "jev": 0.51
         }
       ],
-      "login": "developit",
-      "x_handle": "_developit",
-      "attach": "cards/developit.png",
+      "login": "antirez",
+      "x_handle": "antirez",
+      "attach": "cards/antirez.png",
       "mild_lines": [
-        "Out of 351 public repos, kinu was the last one you touched.",
-        "You have 5 tutorial repos and still call it practice."
+        "lamernews is the one Ruby repo in a wall of C.",
+        "gif-pure-tcl has been waiting since 2011 for someone else who writes Tcl."
       ],
-      "regenerated_after_engine_fix": true,
-      "superseded": {
-        "reason": "engine fix: real repo count + no fork names; card lines changed",
-        "previous_final": "{context} ran your github through a dumb thing i made and it gave you 20h 49m. Out of 100 public repos, kinu was the last one you touched."
-      }
+      "regenerated_after_custom_lines": true
     },
     {
-      "id": "reply-kettanaito",
+      "id": "reply-mitchellh",
       "kind": "reply",
       "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 30h 20m. Did naming-cheatsheet get 17,520 stars before you wrote the tests?",
+      "final": "{context} also my silly github roaster says claude needs 36h 30m for you. vagrant-aws has 2,583 stars and no push since 2021.",
+      "ai_score": 1,
+      "ai_scores": [
+        2,
+        1,
+        1
+      ],
+      "verdicts": [
+        "human",
+        "human",
+        "human"
+      ],
+      "jev": 0.5,
+      "rounds": 0,
+      "attempts": [
+        {
+          "round": 0,
+          "text": "{context} also my silly github roaster says claude needs 36h 30m for you. vagrant-aws has 2,583 stars and no push since 2021.",
+          "ai": {
+            "scores": [
+              2,
+              1,
+              1
+            ],
+            "verdicts": [
+              "human",
+              "human",
+              "human"
+            ],
+            "median": 1,
+            "ai_votes": 0,
+            "pass": true,
+            "tells": [
+              "The lowercase, clipped phrasing feels casual, though the jump from the launch to the repository stats is abrupt.",
+              "Casual lowercase phrasing",
+              "Specific project and repo details",
+              "Slightly awkward but natural wording"
+            ],
+            "rewrite": "Congrats on the launch. My silly GitHub roaster says Claude needs 36h 30m for you. Vagrant-aws has 2,583 stars and hasn't had a push since 2021."
+          },
+          "jev": 0.5
+        }
+      ],
+      "login": "mitchellh",
+      "x_handle": "mitchellh",
+      "attach": "cards/mitchellh.png",
+      "mild_lines": [
+        "gox has 4,567 stars and no push since 2023.",
+        "vagrant-aws has 2,583 stars and no push since 2021."
+      ],
+      "regenerated_after_custom_lines": true
+    },
+    {
+      "id": "reply-kentcdodds",
+      "kind": "reply",
+      "kept": true,
+      "final": "{context} had to try yours on my little claude timer. 33h 11m. jest-cypress-react-babel-webpack has been waiting since 2023 for its name to finish loading.",
       "ai_score": 1,
       "ai_scores": [
         2,
@@ -1123,7 +565,7 @@
       "attempts": [
         {
           "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 30h 20m. Did naming-cheatsheet get 17,520 stars before you wrote the tests?",
+          "text": "{context} had to try yours on my little claude timer. 33h 11m. jest-cypress-react-babel-webpack has been waiting since 2023 for its name to finish loading.",
           "ai": {
             "scores": [
               2,
@@ -1138,26 +580,30 @@
             "median": 1,
             "ai_votes": 0,
             "pass": true,
-            "tells": [],
-            "rewrite": "Congrats on the launch. I ran your GitHub through a dumb thing I made and it gave you 30h 20m. Did naming-cheatsheet get 17,520 stars before you wrote the tests?"
+            "tells": [
+              "The long project name and specific elapsed time feel personal and context-dependent.",
+              "The personification in “waiting since 2023 for its name to finish loading” is a neat punchline, but not enough to read as generated.",
+              "The oddly specific timer and long package-name joke feel personal and spontaneous."
+            ],
+            "rewrite": "congrats on the launch. tried yours on my little claude timer. 33h 11m. jest-cypress-react-babel-webpack has been waiting since 2023 for its name to finish loading."
           },
           "jev": 0.53
         }
       ],
-      "login": "kettanaito",
-      "x_handle": "kettanaito",
-      "attach": "cards/kettanaito.png",
+      "login": "kentcdodds",
+      "x_handle": "kentcdodds",
+      "attach": "cards/kentcdodds.png",
       "mild_lines": [
-        "Did naming-cheatsheet get 17,520 stars before you wrote the tests?",
-        "I wouldn't run test-flat without a dependency audit and a snack."
+        "jest-cypress-react-babel-webpack has been waiting since 2023 for its name to finish loading.",
+        "Does use-deep-compare-effect need a shorter name or just a deeper comparison?"
       ],
-      "alternatives_tried": 1
+      "regenerated_after_custom_lines": true
     },
     {
-      "id": "reply-tannerlinsley",
+      "id": "reply-addyosmani",
       "kind": "reply",
       "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 40h 21m. Claude opened react-query-devtools and the issues tab felt like a waiting room.",
+      "final": "{context} ran your github through a dumb thing i made and it gave you 42h 38m. preact-hn has been quiet since 2017-04, even the TODOs stopped asking.",
       "ai_score": 2,
       "ai_scores": [
         2,
@@ -1169,12 +615,12 @@
         "human",
         "human"
       ],
-      "jev": 0.56,
+      "jev": 0.52,
       "rounds": 0,
       "attempts": [
         {
           "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 40h 21m. Claude opened react-query-devtools and the issues tab felt like a waiting room.",
+          "text": "{context} ran your github through a dumb thing i made and it gave you 42h 38m. preact-hn has been quiet since 2017-04, even the TODOs stopped asking.",
           "ai": {
             "scores": [
               2,
@@ -1189,88 +635,29 @@
             "median": 2,
             "ai_votes": 0,
             "pass": true,
-            "tells": [],
-            "rewrite": "Congrats on the launch. Ran your GitHub through a dumb thing I made and got 40h 21m. Claude opened react-query-devtools and the issues tab felt like a waiting room."
-          },
-          "jev": 0.56
-        }
-      ],
-      "login": "tannerlinsley",
-      "x_handle": "tannerlinsley",
-      "attach": "cards/tannerlinsley.png",
-      "mild_lines": [
-        "Claude opened react-query-devtools and the issues tab felt like a waiting room.",
-        "You opened cloudflare-tanstack-charts-demo with a todo list and called that a start."
-      ],
-      "alternatives_tried": 1
-    },
-    {
-      "id": "reply-colinhacks",
-      "kind": "reply",
-      "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 31h 46m. Claude checked edgedb-remix-test-2 and the tutorial's been going on a bit, huh.",
-      "ai_score": 3,
-      "ai_scores": [
-        3,
-        3,
-        2
-      ],
-      "verdicts": [
-        "human",
-        "human",
-        "human"
-      ],
-      "jev": 0.55,
-      "rounds": 0,
-      "attempts": [
-        {
-          "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 31h 46m. Claude checked edgedb-remix-test-2 and the tutorial's been going on a bit, huh.",
-          "ai": {
-            "scores": [
-              3,
-              3,
-              2
-            ],
-            "verdicts": [
-              "human",
-              "human",
-              "human"
-            ],
-            "median": 3,
-            "ai_votes": 0,
-            "pass": true,
             "tells": [
-              "The setup followed by a neatly stated result feels slightly polished.",
-              "Generic 'congrats on the launch' opener",
-              "The precise time reads a little calculated",
-              "The last two sentences feel slightly awkward",
-              "The precise time reads like a tool result, but the casual phrasing feels personal.",
-              "“gave you 31h 46m” is slightly awkward."
+              "The TODOs stopped asking is a neatly shaped punchline, but the specific project detail makes it feel personal.",
+              "The punchline feels deliberately polished, but the specific repo and date make it sound personal."
             ],
-            "rewrite": "Congrats on the launch. My dumb thing says 31h 46m for your GitHub. Claude checked edgedb-remix-test-2, and that tutorial's been going a while."
+            "rewrite": "Congrats on the launch. I ran your GitHub through a dumb thing I made and got 42h 38m. preact-hn has been quiet since 2017-04. Even the TODOs stopped asking."
           },
-          "jev": 0.55
+          "jev": 0.52
         }
       ],
-      "login": "colinhacks",
-      "x_handle": "colinhacks",
-      "attach": "cards/colinhacks.png",
+      "login": "addyosmani",
+      "x_handle": "addyosmani",
+      "attach": "cards/addyosmani.png",
       "mild_lines": [
-        "Claude checked edgedb-remix-test-2 and the tutorial's been going on a bit, huh.",
-        "You write code for zod but not one sentence about it."
+        "preact-hn has been quiet since 2017-04, even the TODOs stopped asking.",
+        "vue-cli-todomvc has 23 stars and still needs a todo for its todo."
       ],
-      "regenerated_after_engine_fix": true,
-      "superseded": {
-        "reason": "engine fix: real repo count + no fork names; card lines changed",
-        "previous_final": "{context} ran your github through a dumb thing i made and it gave you 31h 46m. Claude checked smoke-tests and the tutorial's been going on a bit, huh."
-      }
+      "regenerated_after_custom_lines": true
     },
     {
-      "id": "reply-simonw",
+      "id": "reply-ThePrimeagen",
       "kind": "reply",
       "kept": true,
-      "final": "{context} tried you on my claude timer for fun. 2d 7h. it also wanted to know this. How many stars does llm need before you update the README?",
+      "final": "{context} ran your github through a dumb thing i made and it gave you 33h 54m. Claude found refactoring.nvim and assumes it refactors itself.",
       "ai_score": 2,
       "ai_scores": [
         2,
@@ -1282,12 +669,12 @@
         "human",
         "human"
       ],
-      "jev": 0.53,
+      "jev": 0.61,
       "rounds": 0,
       "attempts": [
         {
           "round": 0,
-          "text": "{context} tried you on my claude timer for fun. 2d 7h. it also wanted to know this. How many stars does llm need before you update the README?",
+          "text": "{context} ran your github through a dumb thing i made and it gave you 33h 54m. Claude found refactoring.nvim and assumes it refactors itself.",
           "ai": {
             "scores": [
               2,
@@ -1303,147 +690,32 @@
             "ai_votes": 0,
             "pass": true,
             "tells": [
-              "The phrasing is a little awkward, especially “It also wanted to know this.”",
-              "Casual lowercase and clipped sentences feel like a quick human reply.",
-              "Lowercase and slightly awkward phrasing feel like a quick human-typed reply.",
-              "Casual lowercase and uneven punctuation feel typed quickly.",
-              "The phrasing is awkward in a way that sounds more human than generated."
+              "The setup and punchline are neatly arranged, but the specific tool and joke feel personal.",
+              "The setup and punchline are neatly balanced, but the specific GitHub tool result and refactoring.nvim joke feel personal."
             ],
-            "rewrite": "Congrats on the launch. Tried you on my Claude timer for fun and got 2d 7h. It also wanted to know how many stars an LLM needs before you update the README."
+            "rewrite": "congrats on the launch. ran your github through a dumb thing i made, got 33h 54m. Claude saw refactoring.nvim and thinks it refactors itself."
           },
-          "jev": 0.53
+          "jev": 0.61
         }
       ],
-      "login": "simonw",
-      "x_handle": "simonw",
-      "attach": "cards/simonw.png",
+      "login": "ThePrimeagen",
+      "x_handle": "ThePrimeagen",
+      "attach": "cards/ThePrimeagen.png",
       "mild_lines": [
-        "You opened usgs-demo with a todo list and called that a start.",
-        "How many stars does llm need before you update the README?"
+        "Claude found refactoring.nvim and assumes it refactors itself.",
+        "vim-be-good has 4575 stars and the last push was back in December 2024."
       ],
-      "retry": 2,
-      "earlier_attempts": [
-        [
-          [
-            {
-              "round": 0,
-              "text": "{context} ran your github through a dumb thing i made and it gave you 2d 7h. You opened usgs-demo with a todo list and called that a start.",
-              "ai": {
-                "scores": [
-                  2,
-                  2,
-                  1
-                ],
-                "verdicts": [
-                  "human",
-                  "human",
-                  "human"
-                ],
-                "median": 2,
-                "ai_votes": 0,
-                "pass": true,
-                "tells": [
-                  "The lowercase style and specific, slightly awkward phrasing feel like a person typing casually.",
-                  "The lowercase opening followed by capitalized “You” is slightly inconsistent, but the specific detail and casual phrasing feel human.",
-                  "Specific reference to usgs-demo and its todo list",
-                  "Informal, slightly awkward phrasing that sounds typed quickly"
-                ],
-                "rewrite": "congrats on the launch. my dumb github thing gave you 2d 7h. you opened usgs-demo with a todo list and called that a start."
-              },
-              "jev": 0.42
-            }
-          ],
-          [
-            {
-              "round": 0,
-              "text": "{context} had to try yours on my little claude timer. 2d 7h. You opened usgs-demo with a todo list and called that a start.",
-              "ai": {
-                "scores": [
-                  2,
-                  1,
-                  1
-                ],
-                "verdicts": [
-                  "human",
-                  "human",
-                  "human"
-                ],
-                "median": 1,
-                "ai_votes": 0,
-                "pass": true,
-                "tells": [
-                  "Specific, slightly awkward details like “usgs-demo” and “called that a start” feel personal rather than generic.",
-                  "Specific, slightly awkward details make it sound personal rather than generated.",
-                  "The lowercase and clipped phrasing feel like a quick reply."
-                ],
-                "rewrite": "congrats on the launch. tried yours on my little claude timer, got 2d 7h. you opened usgs-demo with a todo list and called that a start."
-              },
-              "jev": 0.48
-            }
-          ],
-          [
-            {
-              "round": 0,
-              "text": "{context} ran your github through a dumb thing i made and it gave you 2d 7h. How many stars does llm need before you update the README?",
-              "ai": {
-                "scores": [
-                  2,
-                  1,
-                  1
-                ],
-                "verdicts": [
-                  "human",
-                  "human",
-                  "human"
-                ],
-                "median": 1,
-                "ai_votes": 0,
-                "pass": true,
-                "tells": [
-                  "Casual, slightly awkward phrasing reads like a quick reply.",
-                  "“llm” is unclear and unusually lowercase."
-                ],
-                "rewrite": "Congrats on the launch. Ran your GitHub through a dumb thing I made and got 2d 7h. How many stars does the LLM need before you update the README?"
-              },
-              "jev": 0.4
-            }
-          ],
-          [
-            {
-              "round": 0,
-              "text": "{context} had to try yours on my little claude timer. 2d 7h. How many stars does llm need before you update the README?",
-              "ai": {
-                "scores": [
-                  1,
-                  1,
-                  1
-                ],
-                "verdicts": [
-                  "human",
-                  "human",
-                  "human"
-                ],
-                "median": 1,
-                "ai_votes": 0,
-                "pass": true,
-                "tells": [],
-                "rewrite": "Congrats on the launch. Had to try yours on my little Claude timer: 2d 7h. How many stars does an LLM need before you update the README?"
-              },
-              "jev": 0.46
-            }
-          ]
-        ]
-      ]
+      "regenerated_after_custom_lines": true
     },
     {
-      "id": "reply-jakearchibald",
+      "id": "reply-t3dotgg",
       "kind": "reply",
       "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 35h 53m. Claude opened idb and the issues tab felt like a waiting room.",
-      "ai_score": 2,
+      "final": "{context} ran your github through a dumb thing i made and it gave you 26h 9m. animated-list-demo hasn't been pushed since 2022, the animation finished.",
+      "ai_score": 1,
       "ai_scores": [
         2,
-        2,
+        1,
         1
       ],
       "verdicts": [
@@ -1451,16 +723,16 @@
         "human",
         "human"
       ],
-      "jev": 0.56,
+      "jev": 0.52,
       "rounds": 0,
       "attempts": [
         {
           "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 35h 53m. Claude opened idb and the issues tab felt like a waiting room.",
+          "text": "{context} ran your github through a dumb thing i made and it gave you 26h 9m. animated-list-demo hasn't been pushed since 2022, the animation finished.",
           "ai": {
             "scores": [
               2,
-              2,
+              1,
               1
             ],
             "verdicts": [
@@ -1468,92 +740,87 @@
               "human",
               "human"
             ],
-            "median": 2,
+            "median": 1,
             "ai_votes": 0,
             "pass": true,
             "tells": [
-              "casual lowercase and clipped phrasing",
-              "specific, slightly odd image in “the issues tab felt like a waiting room”",
-              "The waiting-room metaphor feels a little crafted, but the phrasing is otherwise casual and specific."
+              "The setup-to-punchline structure feels a little polished, especially “the animation finished.”",
+              "The punchline feels intentionally crafted, but the casual lowercase and specific project detail read naturally."
             ],
-            "rewrite": "congrats on the launch. my dumb github thing gave you 35h 53m. Claude opened idb and the issues tab felt like a waiting room."
+            "rewrite": "congrats on the launch. my dumb github thing says 26h 9m. animated-list-demo hasn't been pushed since 2022. animation's over."
           },
-          "jev": 0.56
+          "jev": 0.52
         }
       ],
-      "login": "jakearchibald",
-      "x_handle": "jaffathecake",
-      "attach": "cards/jakearchibald.png",
+      "login": "t3dotgg",
+      "x_handle": "theo",
+      "attach": "cards/t3dotgg.png",
       "mild_lines": [
-        "You pushed random-stuff but skipped the part where anyone can tell what it is.",
-        "Claude opened idb and the issues tab felt like a waiting room."
+        "animated-list-demo hasn't been pushed since 2022, the animation finished.",
+        "Does lust-lang's 88 stars mean Rust has approved the name?"
       ],
-      "alternatives_tried": 3
+      "regenerated_after_custom_lines": true
     },
     {
-      "id": "reply-mjackson",
+      "id": "reply-shadcn",
       "kind": "reply",
       "kept": true,
-      "final": "{context} ran your github through a dumb thing i made and it gave you 18h 34m. Claude opened expect and the issues tab felt like a waiting room.",
-      "ai_score": 3,
+      "final": "{context} ran your github through a dumb thing i made and it gave you 28h 33m. vite-template and vite-template-v3 both exist, v2 is somewhere.",
+      "ai_score": 1,
       "ai_scores": [
-        3,
-        3,
-        1
+        1,
+        1,
+        0
       ],
       "verdicts": [
         "human",
         "human",
         "human"
       ],
-      "jev": 0.53,
+      "jev": 0.51,
       "rounds": 0,
       "attempts": [
         {
           "round": 0,
-          "text": "{context} ran your github through a dumb thing i made and it gave you 18h 34m. Claude opened expect and the issues tab felt like a waiting room.",
+          "text": "{context} ran your github through a dumb thing i made and it gave you 28h 33m. vite-template and vite-template-v3 both exist, v2 is somewhere.",
           "ai": {
             "scores": [
-              3,
-              3,
-              1
+              1,
+              1,
+              0
             ],
             "verdicts": [
               "human",
               "human",
               "human"
             ],
-            "median": 3,
+            "median": 1,
             "ai_votes": 0,
             "pass": true,
-            "tells": [
-              "The waiting-room comparison feels a little crafted.",
-              "The opening congratulations is generic, but the specific tool and result sound personal.",
-              "The waiting-room image feels a little composed, but the wording is otherwise casual and specific."
-            ],
-            "rewrite": "Congrats on the launch. I ran your GitHub through a dumb thing I made and it gave you 18h 34m. Claude opened expect and the issues tab felt like a waiting room."
+            "tells": [],
+            "rewrite": "congrats on the launch. my dumb github thing says 28h 33m. vite-template and vite-template-v3 are there, and v2 is somewhere."
           },
-          "jev": 0.53
+          "jev": 0.51
         }
       ],
-      "login": "mjackson",
-      "x_handle": "mjackson",
-      "attach": "cards/mjackson.png",
+      "login": "shadcn",
+      "x_handle": "shadcn",
+      "attach": "cards/shadcn.png",
       "mild_lines": [
-        "Claude opened expect and the issues tab felt like a waiting room.",
-        "Claude checked miniflare-test and the tutorial's been going on a bit, huh."
+        "vite-template and vite-template-v3 both exist, v2 is somewhere.",
+        "gatsby-theme-twentytwentyone hasn't been pushed since 2022."
       ],
-      "alternatives_tried": 1
+      "regenerated_after_custom_lines": true
     },
     {
-      "id": "reply-ryanflorence",
+      "id": "reply-dhh",
       "kind": "reply",
       "kept": true,
-      "final": "{context} also my silly github roaster says claude needs 29h 34m for you. You finished the tutorial before you finished testing-123.",
-      "ai_score": 2,
+      "final": "{context} ran your github through a dumb thing i made and it gave you 13h 49m. textmate-rails-bundle still got a push in 2022.",
+      "ai_score": 1,
       "ai_scores": [
-        2,
-        2,
+        1,
+        1,
         1
       ],
       "verdicts": [
@@ -1566,7 +833,58 @@
       "attempts": [
         {
           "round": 0,
-          "text": "{context} also my silly github roaster says claude needs 29h 34m for you. You finished the tutorial before you finished testing-123.",
+          "text": "{context} ran your github through a dumb thing i made and it gave you 13h 49m. textmate-rails-bundle still got a push in 2022.",
+          "ai": {
+            "scores": [
+              1,
+              1,
+              1
+            ],
+            "verdicts": [
+              "human",
+              "human",
+              "human"
+            ],
+            "median": 1,
+            "ai_votes": 0,
+            "pass": true,
+            "tells": [],
+            "rewrite": "congrats on the launch. ran your github through a dumb thing i made and it gave you 13h 49m. textmate-rails-bundle still got a push in 2022."
+          },
+          "jev": 0.54
+        }
+      ],
+      "login": "dhh",
+      "x_handle": "dhh",
+      "attach": "cards/dhh.png",
+      "mild_lines": [
+        "textmate-rails-bundle still got a push in 2022.",
+        "asset-hosting-with-minimum-ssl has had no push since 2008 and still sounds like advice."
+      ],
+      "regenerated_after_custom_lines": true
+    },
+    {
+      "id": "reply-jaredpalmer",
+      "kind": "reply",
+      "kept": true,
+      "final": "{context} also my silly github roaster says claude needs 19h 3m for you. tsdx has 11,462 stars and the name still reads like a typo of tsx.",
+      "ai_score": 2,
+      "ai_scores": [
+        2,
+        2,
+        1
+      ],
+      "verdicts": [
+        "human",
+        "human",
+        "human"
+      ],
+      "jev": 0.52,
+      "rounds": 0,
+      "attempts": [
+        {
+          "round": 0,
+          "text": "{context} also my silly github roaster says claude needs 19h 3m for you. tsdx has 11,462 stars and the name still reads like a typo of tsx.",
           "ai": {
             "scores": [
               2,
@@ -1582,29 +900,507 @@
             "ai_votes": 0,
             "pass": true,
             "tells": [
-              "Generic congratulations opener",
-              "Awkward phrasing feels more like a quick personal joke than generated copy",
-              "The lowercase phrasing and slightly awkward joke read like a quick personal reply.",
-              "The lowercase, slightly awkward phrasing feels typed casually.",
-              "“testing-123” is unclear, but reads more like a specific reference than generated polish."
+              "Specific, slightly awkward GitHub-roaster joke feels personal rather than templated.",
+              "The setup followed by a precise roast stat feels slightly constructed."
             ],
-            "rewrite": "Congrats on the launch. My silly GitHub roaster says Claude needs 29h 34m for you. You finished the tutorial before you finished testing-123."
+            "rewrite": "Congrats on the launch. My silly GitHub roaster says Claude needs 19h 3m for you. TSDX has 11,462 stars and still looks like a typo of TSX."
           },
-          "jev": 0.54
+          "jev": 0.52
+        }
+      ],
+      "login": "jaredpalmer",
+      "x_handle": "jaredpalmer",
+      "attach": "cards/jaredpalmer.png",
+      "mild_lines": [
+        "tsdx has 11,462 stars and the name still reads like a typo of tsx.",
+        "backpack has 4,399 stars, quite a lot of luggage for JavaScript."
+      ],
+      "regenerated_after_custom_lines": true
+    },
+    {
+      "id": "reply-wesbos",
+      "kind": "reply",
+      "kept": true,
+      "final": "{context} ran your github through a dumb thing i made and it gave you 2d 2h. Why does eslint-config-wesbos have 2699 stars and such a serious name?",
+      "ai_score": 2,
+      "ai_scores": [
+        2,
+        2,
+        1
+      ],
+      "verdicts": [
+        "human",
+        "human",
+        "human"
+      ],
+      "jev": 0.56,
+      "rounds": 0,
+      "attempts": [
+        {
+          "round": 0,
+          "text": "{context} ran your github through a dumb thing i made and it gave you 2d 2h. Why does eslint-config-wesbos have 2699 stars and such a serious name?",
+          "ai": {
+            "scores": [
+              2,
+              2,
+              1
+            ],
+            "verdicts": [
+              "human",
+              "human",
+              "human"
+            ],
+            "median": 2,
+            "ai_votes": 0,
+            "pass": true,
+            "tells": [
+              "The question about the repo name shifts abruptly from the launch and the tool result, but that reads like a spontaneous reply.",
+              "Abrupt pivot from congratulations to a specific question feels conversational.",
+              "Lowercase and informal phrasing read like a quick reply."
+            ],
+            "rewrite": "Congrats on the launch. Ran your GitHub through a dumb thing I made and got 2d 2h. Also, why does eslint-config-wesbos have 2699 stars and such a serious name?"
+          },
+          "jev": 0.56
+        }
+      ],
+      "login": "wesbos",
+      "x_handle": "wesbos",
+      "attach": "cards/wesbos.png",
+      "mild_lines": [
+        "Why does eslint-config-wesbos have 2699 stars and such a serious name?",
+        "JavaScript30 has 29308 stars and still sounds like a very ambitious weekend."
+      ],
+      "regenerated_after_custom_lines": true
+    },
+    {
+      "id": "reply-developit",
+      "kind": "reply",
+      "kept": true,
+      "final": "{context} had to try yours on my little claude timer. 20h 49m. greenlet and workerize both stopped in 2021.",
+      "ai_score": 1,
+      "ai_scores": [
+        1,
+        1,
+        1
+      ],
+      "verdicts": [
+        "human",
+        "human",
+        "human"
+      ],
+      "jev": 0.5,
+      "rounds": 0,
+      "attempts": [
+        {
+          "round": 0,
+          "text": "{context} had to try yours on my little claude timer. 20h 49m. greenlet and workerize both stopped in 2021.",
+          "ai": {
+            "scores": [
+              1,
+              1,
+              1
+            ],
+            "verdicts": [
+              "human",
+              "human",
+              "human"
+            ],
+            "median": 1,
+            "ai_votes": 0,
+            "pass": true,
+            "tells": [
+              "Clipped lowercase phrasing feels like a quick post.",
+              "Specific tools and a precise timer result make it feel personal."
+            ],
+            "rewrite": "Congrats on the launch. Had to try yours on my little Claude timer. 20h 49m. Greenlet and Workerize both stopped in 2021."
+          },
+          "jev": 0.5
+        }
+      ],
+      "login": "developit",
+      "x_handle": "_developit",
+      "attach": "cards/developit.png",
+      "mild_lines": [
+        "greenlet and workerize both stopped in 2021.",
+        "dlv has 1,253 stars and no push since 2020.",
+        "unfetch has 5,695 stars and hasn't been fetched since 2023."
+      ],
+      "regenerated_after_custom_lines": true
+    },
+    {
+      "id": "reply-kettanaito",
+      "kind": "reply",
+      "kept": true,
+      "final": "{context} ran your github through a dumb thing i made and it gave you 30h 20m. test-flat has been flat since 2021, very on brand.",
+      "ai_score": 1,
+      "ai_scores": [
+        1,
+        1,
+        0
+      ],
+      "verdicts": [
+        "human",
+        "human",
+        "human"
+      ],
+      "jev": 0.51,
+      "rounds": 0,
+      "attempts": [
+        {
+          "round": 0,
+          "text": "{context} ran your github through a dumb thing i made and it gave you 30h 20m. test-flat has been flat since 2021, very on brand.",
+          "ai": {
+            "scores": [
+              1,
+              1,
+              0
+            ],
+            "verdicts": [
+              "human",
+              "human",
+              "human"
+            ],
+            "median": 1,
+            "ai_votes": 0,
+            "pass": true,
+            "tells": [
+              "Specific repo joke and casual phrasing feel personal; no clear AI tells."
+            ],
+            "rewrite": "congrats on the launch. ran your github through a dumb thing i made, got 30h 20m. test-flat has been flat since 2021, very on brand."
+          },
+          "jev": 0.51
+        }
+      ],
+      "login": "kettanaito",
+      "x_handle": "kettanaito",
+      "attach": "cards/kettanaito.png",
+      "mild_lines": [
+        "test-flat has been flat since 2021, very on brand.",
+        "webpack-file-router-plugin has one star and three jobs in its name."
+      ],
+      "regenerated_after_custom_lines": true
+    },
+    {
+      "id": "reply-tannerlinsley",
+      "kind": "reply",
+      "kept": true,
+      "final": "{context} ran your github through a dumb thing i made and it gave you 40h 21m. react-static-large-site-test has been testing since 2018.",
+      "ai_score": 1,
+      "ai_scores": [
+        1,
+        1,
+        1
+      ],
+      "verdicts": [
+        "human",
+        "human",
+        "human"
+      ],
+      "jev": 0.5,
+      "rounds": 0,
+      "attempts": [
+        {
+          "round": 0,
+          "text": "{context} ran your github through a dumb thing i made and it gave you 40h 21m. react-static-large-site-test has been testing since 2018.",
+          "ai": {
+            "scores": [
+              1,
+              1,
+              1
+            ],
+            "verdicts": [
+              "human",
+              "human",
+              "human"
+            ],
+            "median": 1,
+            "ai_votes": 0,
+            "pass": true,
+            "tells": [],
+            "rewrite": "Congrats on the launch. I ran your GitHub through a dumb thing I made and it gave you 40h 21m. react-static-large-site-test has been testing since 2018."
+          },
+          "jev": 0.5
+        }
+      ],
+      "login": "tannerlinsley",
+      "x_handle": "tannerlinsley",
+      "attach": "cards/tannerlinsley.png",
+      "mild_lines": [
+        "react-static-large-site-test has been testing since 2018.",
+        "my-tanstack-app-10-cf means there were at least nine others."
+      ],
+      "regenerated_after_custom_lines": true
+    },
+    {
+      "id": "reply-colinhacks",
+      "kind": "reply",
+      "kept": true,
+      "final": "{context} ran your github through a dumb thing i made and it gave you 31h 46m. zshy sounds like a shell that got shy halfway through the name.",
+      "ai_score": 1,
+      "ai_scores": [
+        2,
+        1,
+        1
+      ],
+      "verdicts": [
+        "human",
+        "human",
+        "human"
+      ],
+      "jev": 0.55,
+      "rounds": 0,
+      "attempts": [
+        {
+          "round": 0,
+          "text": "{context} ran your github through a dumb thing i made and it gave you 31h 46m. zshy sounds like a shell that got shy halfway through the name.",
+          "ai": {
+            "scores": [
+              2,
+              1,
+              1
+            ],
+            "verdicts": [
+              "human",
+              "human",
+              "human"
+            ],
+            "median": 1,
+            "ai_votes": 0,
+            "pass": true,
+            "tells": [
+              "The shy-shell pun feels a little neatly constructed, but the specific tool result and casual phrasing read naturally."
+            ],
+            "rewrite": "congrats on the launch. ran your github through a dumb thing i made, got 31h 46m. zshy sounds like a shell that got shy halfway through its name."
+          },
+          "jev": 0.55
+        }
+      ],
+      "login": "colinhacks",
+      "x_handle": "colinhacks",
+      "attach": "cards/colinhacks.png",
+      "mild_lines": [
+        "zshy sounds like a shell that got shy halfway through the name.",
+        "scratch has one star, someone found the scratch pad."
+      ],
+      "regenerated_after_custom_lines": true
+    },
+    {
+      "id": "reply-simonw",
+      "kind": "reply",
+      "kept": true,
+      "final": "{context} ran your github through a dumb thing i made and it gave you 2d 7h. research is written in Rust, according to GitHub.",
+      "ai_score": 2,
+      "ai_scores": [
+        2,
+        2,
+        1
+      ],
+      "verdicts": [
+        "human",
+        "human",
+        "human"
+      ],
+      "jev": 0.53,
+      "rounds": 0,
+      "attempts": [
+        {
+          "round": 0,
+          "text": "{context} ran your github through a dumb thing i made and it gave you 2d 7h. research is written in Rust, according to GitHub.",
+          "ai": {
+            "scores": [
+              2,
+              2,
+              1
+            ],
+            "verdicts": [
+              "human",
+              "human",
+              "human"
+            ],
+            "median": 2,
+            "ai_votes": 0,
+            "pass": true,
+            "tells": [
+              "Casual, specific phrasing and an oddly precise result feel personal.",
+              "The last sentence is a little abrupt, but not strongly AI-like.",
+              "The final “according to GitHub” feels a little like a punchline, but the casual lowercase and “dumb thing I made” sound natural."
+            ],
+            "rewrite": "Congrats on the launch. I ran your GitHub through a dumb thing I made and it gave you 2d 7h. GitHub says Research is written in Rust."
+          },
+          "jev": 0.53
+        }
+      ],
+      "login": "simonw",
+      "x_handle": "simonw",
+      "attach": "cards/simonw.png",
+      "mild_lines": [
+        "research is written in Rust, according to GitHub.",
+        "simonwillisonblog is a repo with 433 stars, the blog is open source too."
+      ],
+      "regenerated_after_custom_lines": true
+    },
+    {
+      "id": "reply-jakearchibald",
+      "kind": "reply",
+      "kept": true,
+      "final": "{context} had to try yours on my little claude timer. 35h 53m. isserviceworkerready has had no push since 2022, so maybe.",
+      "ai_score": 1,
+      "ai_scores": [
+        1,
+        1,
+        1
+      ],
+      "verdicts": [
+        "human",
+        "human",
+        "human"
+      ],
+      "jev": 0.51,
+      "rounds": 0,
+      "attempts": [
+        {
+          "round": 0,
+          "text": "{context} had to try yours on my little claude timer. 35h 53m. isserviceworkerready has had no push since 2022, so maybe.",
+          "ai": {
+            "scores": [
+              1,
+              1,
+              1
+            ],
+            "verdicts": [
+              "human",
+              "human",
+              "human"
+            ],
+            "median": 1,
+            "ai_votes": 0,
+            "pass": true,
+            "tells": [
+              "The trailing “so maybe” is a little unfinished, but reads like a quick thought rather than a generated line.",
+              "The fragment “so maybe” is a little ambiguous, but the terse lowercase style feels like a person typing quickly."
+            ],
+            "rewrite": "congrats on the launch. tried yours on my little claude timer. 35h 53m. isserviceworkerready hasn't had a push since 2022, so maybe"
+          },
+          "jev": 0.51
+        }
+      ],
+      "login": "jakearchibald",
+      "x_handle": "jaffathecake",
+      "attach": "cards/jakearchibald.png",
+      "mild_lines": [
+        "wittr has 382 stars and no push since 2020.",
+        "isserviceworkerready has had no push since 2022, so maybe."
+      ],
+      "regenerated_after_custom_lines": true
+    },
+    {
+      "id": "reply-mjackson",
+      "kind": "reply",
+      "kept": true,
+      "final": "{context} tried you on my claude timer for fun. 18h 34m. it also wanted to know this. then-redis hasn't been pushed since 2016.",
+      "ai_score": 1,
+      "ai_scores": [
+        2,
+        1,
+        1
+      ],
+      "verdicts": [
+        "human",
+        "human",
+        "human"
+      ],
+      "jev": 0.5,
+      "rounds": 0,
+      "attempts": [
+        {
+          "round": 0,
+          "text": "{context} tried you on my claude timer for fun. 18h 34m. it also wanted to know this. then-redis hasn't been pushed since 2016.",
+          "ai": {
+            "scores": [
+              2,
+              1,
+              1
+            ],
+            "verdicts": [
+              "human",
+              "human",
+              "human"
+            ],
+            "median": 1,
+            "ai_votes": 0,
+            "pass": true,
+            "tells": [
+              "The short, lowercase fragments feel casual and slightly rough, not polished or generated.",
+              "“it also wanted to know this” is a little unclear, but reads like quick typing.",
+              "Fragmented and context-dependent, but the lowercase and shorthand feel like a quick phone-typed reply."
+            ],
+            "rewrite": "congrats on the launch. tried you on my claude timer for fun and got 18h 34m. it also asked about then-redis, last pushed in 2016."
+          },
+          "jev": 0.5
+        }
+      ],
+      "login": "mjackson",
+      "x_handle": "mjackson",
+      "attach": "cards/mjackson.png",
+      "mild_lines": [
+        "then-redis hasn't been pushed since 2016.",
+        "mach has 801 stars and no push since 2018.",
+        "shadowbox has 293 stars and no push since 2022."
+      ],
+      "regenerated_after_custom_lines": true
+    },
+    {
+      "id": "reply-ryanflorence",
+      "kind": "reply",
+      "kept": true,
+      "final": "{context} ran your github through a dumb thing i made and it gave you 29h 34m. async-provider has 119 stars and no description.",
+      "ai_score": 1,
+      "ai_scores": [
+        1,
+        1,
+        1
+      ],
+      "verdicts": [
+        "human",
+        "human",
+        "human"
+      ],
+      "jev": 0.51,
+      "rounds": 0,
+      "attempts": [
+        {
+          "round": 0,
+          "text": "{context} ran your github through a dumb thing i made and it gave you 29h 34m. async-provider has 119 stars and no description.",
+          "ai": {
+            "scores": [
+              1,
+              1,
+              1
+            ],
+            "verdicts": [
+              "human",
+              "human",
+              "human"
+            ],
+            "median": 1,
+            "ai_votes": 0,
+            "pass": true,
+            "tells": [
+              "The opening congratulations is generic, but the casual lowercase and specific project detail feel natural."
+            ],
+            "rewrite": "Congrats on the launch. I ran your GitHub through a dumb thing I made and got 29h 34m. async-provider has 119 stars, no description."
+          },
+          "jev": 0.51
         }
       ],
       "login": "ryanflorence",
       "x_handle": "ryanflorence",
       "attach": "cards/ryanflorence.png",
       "mild_lines": [
-        "You finished the tutorial before you finished testing-123.",
-        "Did git-viewer ship or did the description just never load?"
+        "async-provider has 119 stars and no description.",
+        "advanced-react-workshop hasn't been pushed since 2018."
       ],
-      "regenerated_after_engine_fix": true,
-      "superseded": {
-        "reason": "engine fix: real repo count + no fork names; card lines changed",
-        "previous_final": "{context} ran your github through a dumb thing i made and it gave you 29h 34m. Claude opened react-idle and the lockfile made no sense."
-      }
+      "regenerated_after_custom_lines": true
     }
   ]
 }
