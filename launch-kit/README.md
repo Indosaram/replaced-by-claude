@@ -21,7 +21,9 @@
 
 `posts.md` 의 **3. Reply templates** 에 아래 계정용 템플릿이 있다. 각자의 카드 이미지는 `cards/<아이디>.png` 다.
 
-| GitHub | X |
+> **X 핸들은 아직 아무도 확인하지 않았다.** 아래 X 아이디는 전부 각자의 GitHub 프로필 `twitter_username` 칸에서 자동으로 가져온 값이다 (`cards.json` 의 `handle_source: "github_profile"`, `owner_verified: false`). 답글을 달기 전에 x.com 에서 그 사람 본인 계정이 맞는지 직접 확인한다. 특히 GitHub 아이디와 X 아이디가 다른 **yyx990803 → evanyou**, **t3dotgg → theo**, **developit → _developit**, **jakearchibald → jaffathecake** 는 꼭 확인한다.
+
+| GitHub | X (확인 필요) |
 | --- | --- |
 | sindresorhus | sindresorhus |
 | yyx990803 | evanyou |

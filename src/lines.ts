@@ -207,13 +207,14 @@ function slotsFor(s: Signals, t: Trigger): Slots {
   if (t === "tutorialRepos") repo = s.tutorialRepoName;
   else if (t === "staleRepos") repo = s.oldestStaleRepoName;
   else if (t === "highStars") repo = s.mostStarredRepoName;
+  const stars = t === "highStars" ? s.mostStarredRepoStars : s.totalStars;
   const count = t === "tutorialRepos" ? s.tutorialRepoCount : s.totalPublicRepos;
   return {
     repo: repo || null,
     stale: s.staleRepoCount > 0 ? String(s.staleRepoCount) : "",
     count: count > 0 ? String(count) : "",
     lang: s.topLanguages[0] || null,
-    stars: s.totalStars > 0 ? s.totalStars.toLocaleString("en-US") : "",
+    stars: stars > 0 ? stars.toLocaleString("en-US") : "",
   };
 }
 

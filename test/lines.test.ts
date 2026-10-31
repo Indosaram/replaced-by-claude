@@ -80,6 +80,14 @@ describe("pickLines", () => {
       for (const l of a) expect(l).not.toMatch(/[{}]/);
     }
   });
+  test("highStars uses the top repo's stars, not the total", () => {
+    const mk = (name: string, stars: number) => ({ name, fork: false, stargazers_count: stars, description: "d", language: "TypeScript", pushed_at: "2025-12-01T00:00:00Z" });
+    const s = extractSignals(junior.user as any, [mk("toprepo", 10000), mk("other", 5000)] as any, NOW);
+    expect(s.mostStarredRepoStars).toBe(10000);
+    for (let seed = 0; seed <= 100; seed++) {
+      for (const l of pickLines(s, seed)) if (l.includes("toprepo")) expect(l).not.toContain("15,000");
+    }
+  });
   test("singular repo grammar", () => {
     const s = { ...fixtures.junior, tutorialRepoCount: 1, publicRepos: 1, totalPublicRepos: 1, staleRepoCount: 1 };
     for (let seed = 0; seed <= 200; seed++) for (const l of pickLines(s, seed)) expect(l).not.toMatch(/\b1 (public |tutorial )?repos\b/);

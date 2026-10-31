@@ -2,260 +2,320 @@
   {
     "login": "sindresorhus",
     "x_handle": "sindresorhus",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "2d 5h",
-    "lines": [
-      "You opened clone-regexp with a todo list and called that a start.",
-      "Claude approved the PR in type-fest without scrolling past the title.",
-      "Is got still a project or did you forget why you made it?"
-    ],
     "facts": "2 named like tutorials · 4% of repos are forks",
+    "lines": [
+      "ky has 17,142 stars and still looks like a keyboard typo.",
+      "Does npm-run-path need 109 stars before it gets a less literal name?",
+      "Is round-to rounding its 162 stars up in the README?"
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/sindresorhus.png"
   },
   {
     "login": "yyx990803",
     "x_handle": "evanyou",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "18h 32m",
-    "lines": [
-      "Claude can tell resolve-type-test was typed along with a video.",
-      "Claude is not brave enough to find out if shell-task still compiles.",
-      "People star build-your-own-mint and leave you to fix the bugs."
-    ],
     "facts": "99 of 100 repos untouched for a year · 3 named like tutorials",
+    "lines": [
+      "HTML5-Clear and HTML5-Clear-v2 both exist, v3 never happened.",
+      "pod has 1,332 stars and no push since 2020.",
+      "vue-hooks got 1,584 stars and then sat untouched since 2020."
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/yyx990803.png"
   },
   {
     "login": "antirez",
     "x_handle": "antirez",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "40h 48m",
-    "lines": [
-      "Claude tried to star every one of your 112 repos and got rate limited.",
-      "Did ds4 get 89,504 stars before you wrote the tests?",
-      "I wouldn't run gif-pure-tcl without a dependency audit and a snack."
-    ],
     "facts": "72 of 100 repos untouched for a year · 2 named like tutorials",
+    "lines": [
+      "disque has 8,076 stars and no push since 2021.",
+      "lamernews is the one Ruby repo in a wall of C.",
+      "gif-pure-tcl has been waiting since 2011 for someone else who writes Tcl."
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/antirez.png"
   },
   {
     "login": "mitchellh",
     "x_handle": "mitchellh",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "36h 30m",
-    "lines": [
-      "Claude suspects you maintain 119 repos by just not opening them.",
-      "You left veewee-to-packer untouched for a year and still call it active.",
-      "45,869 stars and Claude still can't find the contributing guide in mapstructure."
-    ],
     "facts": "88 of 100 repos untouched for a year · 1 named like a tutorial",
+    "lines": [
+      "goamz hasn't been pushed since 2016.",
+      "gox has 4,567 stars and no push since 2023.",
+      "vagrant-aws has 2,583 stars and no push since 2021."
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/mitchellh.png"
   },
   {
     "login": "kentcdodds",
     "x_handle": "kentcdodds",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "33h 11m",
-    "lines": [
-      "You pushed kcd-skills but skipped the part where anyone can tell what it is.",
-      "Claude reviewed 754 repos by reading the folder names.",
-      "You still count epic-github-auth as active because it has a README."
-    ],
     "facts": "68 of 100 repos untouched for a year · 5 named like tutorials",
+    "lines": [
+      "bookshelf sounds like where side projects go to wait for a README.",
+      "jest-cypress-react-babel-webpack has been waiting since 2023 for its name to finish loading.",
+      "Does use-deep-compare-effect need a shorter name or just a deeper comparison?"
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/kentcdodds.png"
   },
   {
     "login": "addyosmani",
     "x_handle": "addyosmani",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "42h 38m",
-    "lines": [
-      "I wouldn't run preact-hn without a dependency audit and a snack.",
-      "You refresh the stars on agent-skills more than you review pull requests.",
-      "Your newest repo agent-skills has a description so mysterious it's blank."
-    ],
     "facts": "73 of 100 repos untouched for a year · 6 named like tutorials",
+    "lines": [
+      "preact-hn has been quiet since 2017-04, even the TODOs stopped asking.",
+      "vue-cli-todomvc has 23 stars and still needs a todo for its todo.",
+      "critical has 10,299 stars and Claude still can't tell which CSS is critical."
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/addyosmani.png"
   },
   {
     "login": "ThePrimeagen",
     "x_handle": "ThePrimeagen",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "33h 54m",
-    "lines": [
-      "You have 5 tutorial repos and still call it practice.",
-      "I can't tell if refactoring.nvim is a library or a diary from that description.",
-      "You refresh the stars on harpoon more than you review pull requests."
-    ],
     "facts": "80 of 100 repos untouched for a year · 5 named like tutorials",
+    "lines": [
+      "Claude found refactoring.nvim and assumes it refactors itself.",
+      "vim-be-good has 4575 stars and the last push was back in December 2024.",
+      "big-chungus has been quiet since 2023 and still sounds like a branch waiting for review"
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/ThePrimeagen.png"
   },
   {
     "login": "t3dotgg",
     "x_handle": "theo",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "26h 9m",
-    "lines": [
-      "animated-list-demo last passed its build when people still used Google Reader.",
-      "Claude can tell shoo-vite-demo was typed along with a video.",
-      "Did stripe-recommendations get 14,520 stars before you wrote the tests?"
-    ],
     "facts": "81 of 100 repos untouched for a year · 13 named like tutorials",
+    "lines": [
+      "hacky-chat-sends has no description, the name already confessed.",
+      "animated-list-demo hasn't been pushed since 2022, the animation finished.",
+      "Does lust-lang's 88 stars mean Rust has approved the name?"
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/t3dotgg.png"
   },
   {
     "login": "shadcn",
     "x_handle": "shadcn",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "28h 33m",
-    "lines": [
-      "You write code for improve but not one sentence about it.",
-      "Claude suspects you maintain 228 repos by just not opening them.",
-      "You opened lerna-test with a todo list and called that a start."
-    ],
     "facts": "91 of 100 repos untouched for a year · 5 named like tutorials",
+    "lines": [
+      "throwaway-00 implies there is a throwaway-01 somewhere.",
+      "vite-template and vite-template-v3 both exist, v2 is somewhere.",
+      "gatsby-theme-twentytwentyone hasn't been pushed since 2022."
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/shadcn.png"
   },
   {
     "login": "dhh",
     "x_handle": "dhh",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "13h 49m",
-    "lines": [
-      "I wouldn't run asset-hosting-with-minimum-ssl without a dependency audit and a snack.",
-      "You have been on GitHub for a decade and still test in production.",
-      "Claude opened omarchy-jade-horse-theme and immediately went looking for undo."
-    ],
     "facts": "4 of 15 repos untouched for a year · 47% of repos are forks",
+    "lines": [
+      "conductor has 73 stars, no description and no push since 2010.",
+      "textmate-rails-bundle still got a push in 2022.",
+      "asset-hosting-with-minimum-ssl has had no push since 2008 and still sounds like advice."
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/dhh.png"
   },
   {
     "login": "jaredpalmer",
     "x_handle": "jaredpalmer",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "19h 3m",
-    "lines": [
-      "201 repos and every README says TODO like it's a long-term plan.",
-      "You still count react-router-nextjs-like-data-fetching as active because it has a README.",
-      "Is codemods still practice or did you mean to ship it?"
-    ],
     "facts": "85 of 100 repos untouched for a year · 6 named like tutorials",
+    "lines": [
+      "tsdx has 11,462 stars and the name still reads like a typo of tsx.",
+      "backpack has 4,399 stars, quite a lot of luggage for JavaScript.",
+      "formik has 34,307 stars, surely the README can wait another 19h 3m."
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/jaredpalmer.png"
   },
   {
     "login": "wesbos",
     "x_handle": "wesbos",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "2d 2h",
-    "lines": [
-      "You pushed dotfiles once and called that a workflow.",
-      "Did JavaScript30 get 62,169 stars before you wrote the tests?",
-      "You left 55 repos alone for a year and still haven't deleted them."
-    ],
     "facts": "55 of 100 repos untouched for a year · 1 named like a tutorial",
+    "lines": [
+      "Did beginner-javascript get 6766 stars before the first advanced concept?",
+      "Why does eslint-config-wesbos have 2699 stars and such a serious name?",
+      "JavaScript30 has 29308 stars and still sounds like a very ambitious weekend."
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/wesbos.png"
   },
   {
     "login": "developit",
     "x_handle": "_developit",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "20h 49m",
-    "lines": [
-      "Out of 351 public repos, kinu was the last one you touched.",
-      "You have 5 tutorial repos and still call it practice.",
-      "Did mitt get 68,425 stars before you wrote the tests?"
-    ],
     "facts": "89 of 100 repos untouched for a year · 5 named like tutorials",
+    "lines": [
+      "greenlet and workerize both stopped in 2021.",
+      "dlv has 1,253 stars and no push since 2020.",
+      "unfetch has 5,695 stars and hasn't been fetched since 2023."
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/developit.png"
   },
   {
     "login": "kettanaito",
     "x_handle": "kettanaito",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "30h 20m",
-    "lines": [
-      "Did naming-cheatsheet get 17,520 stars before you wrote the tests?",
-      "I wouldn't run test-flat without a dependency audit and a snack.",
-      "Maybe finish one of those 122 repos for a change."
-    ],
     "facts": "85 of 100 repos untouched for a year · 17 named like tutorials",
+    "lines": [
+      "test-flat has been flat since 2021, very on brand.",
+      "webpack-file-router-plugin has one star and three jobs in its name.",
+      "naming-cheatsheet has 14,202 stars and Claude still named this variable data2."
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/kettanaito.png"
   },
   {
     "login": "tannerlinsley",
     "x_handle": "tannerlinsley",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "40h 21m",
-    "lines": [
-      "Claude opened react-query-devtools and the issues tab felt like a waiting room.",
-      "You opened cloudflare-tanstack-charts-demo with a todo list and called that a start.",
-      "173 repos and every README says TODO like it's a long-term plan."
-    ],
     "facts": "44 of 100 repos untouched for a year · 5 named like tutorials",
+    "lines": [
+      "react-query-devtools has 984 stars and no push since 2021.",
+      "react-static-large-site-test has been testing since 2018.",
+      "my-tanstack-app-10-cf means there were at least nine others."
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/tannerlinsley.png"
   },
   {
     "login": "colinhacks",
     "x_handle": "colinhacks",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "31h 46m",
-    "lines": [
-      "Claude checked edgedb-remix-test-2 and the tutorial's been going on a bit, huh.",
-      "Claude is not brave enough to find out if jolly-zeh-forked still compiles.",
-      "You write code for zod but not one sentence about it."
-    ],
     "facts": "8 of 100 repos untouched for a year · 3 named like tutorials",
+    "lines": [
+      "zshy sounds like a shell that got shy halfway through the name.",
+      "scratch has one star, someone found the scratch pad.",
+      "zod has 44,235 stars and the next repo down has 1,425."
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/colinhacks.png"
   },
   {
     "login": "simonw",
     "x_handle": "simonw",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "2d 7h",
-    "lines": [
-      "You opened usgs-demo with a todo list and called that a start.",
-      "How many stars does llm need before you update the README?",
-      "Is scrape-florida-outages still a project or did you forget why you made it?"
-    ],
     "facts": "6 named like tutorials · 6% of repos are forks",
+    "lines": [
+      "research is written in Rust, according to GitHub.",
+      "simonwillisonblog is a repo with 433 stars, the blog is open source too.",
+      "sqlite-utils has 2,180 stars and Claude still opens sqlite by typing .help"
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/simonw.png"
   },
   {
     "login": "jakearchibald",
     "x_handle": "jaffathecake",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "35h 53m",
-    "lines": [
-      "Is random-stuff still a project or did you forget why you made it?",
-      "You pushed random-stuff but skipped the part where anyone can tell what it is.",
-      "Claude opened idb and the issues tab felt like a waiting room."
-    ],
     "facts": "70 of 100 repos untouched for a year · 8 named like tutorials",
+    "lines": [
+      "safari-14-idb-fix is a whole repo for one Safari bug.",
+      "wittr has 382 stars and no push since 2020.",
+      "isserviceworkerready has had no push since 2022, so maybe."
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/jakearchibald.png"
   },
   {
     "login": "mjackson",
     "x_handle": "mjackson",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "18h 34m",
-    "lines": [
-      "Claude opened expect and the issues tab felt like a waiting room.",
-      "Out of 206 public repos, mjackson.me was the last one you touched.",
-      "Claude checked miniflare-test and the tutorial's been going on a bit, huh."
-    ],
     "facts": "83 of 100 repos untouched for a year · 6 named like tutorials",
+    "lines": [
+      "then-redis hasn't been pushed since 2016.",
+      "mach has 801 stars and no push since 2018.",
+      "shadowbox has 293 stars and no push since 2022."
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/mjackson.png"
   },
   {
     "login": "ryanflorence",
     "x_handle": "ryanflorence",
+    "handle_source": "github_profile",
+    "owner_verified": false,
     "label": "29h 34m",
-    "lines": [
-      "Claude opened jQuery.addObject and the lockfile made no sense.",
-      "You finished the tutorial before you finished testing-123.",
-      "Did git-viewer ship or did the description just never load?"
-    ],
     "facts": "98 of 100 repos untouched for a year · 10 named like tutorials",
+    "lines": [
+      "async-provider has 119 stars and no description.",
+      "advanced-react-workshop hasn't been pushed since 2018.",
+      "remix-blog-vercel has no description and no push since 2020."
+    ],
+    "custom": true,
     "autograph": false,
     "card": "cards/ryanflorence.png"
   }

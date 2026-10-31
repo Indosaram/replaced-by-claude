@@ -45,6 +45,8 @@ export interface Signals {
   newestRepoName: string | null;
   /** Non-fork repo with the most stars; null when there are no stars. */
   mostStarredRepoName: string | null;
+  /** stargazers_count of mostStarredRepoName; 0 when it is null. */
+  mostStarredRepoStars: number;
   /** Oldest pushed_at among stale non-fork repos; null when none are stale. */
   oldestStaleRepoName: string | null;
   /** First non-fork repo whose name looks like a tutorial exercise. */

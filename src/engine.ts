@@ -105,6 +105,7 @@ export function extractSignals(user: GhUser, repos: GhRepo[], now: Date): Signal
     followers: user.followers,
     newestRepoName: newest ? newest.name : null,
     mostStarredRepoName: mostStarred && mostStarred.stargazers_count > 0 ? mostStarred.name : null,
+    mostStarredRepoStars: mostStarred && mostStarred.stargazers_count > 0 ? mostStarred.stargazers_count : 0,
     oldestStaleRepoName: oldestStale ? oldestStale.name : null,
     tutorialRepoName: tutorialRepo ? tutorialRepo.name : null,
   };

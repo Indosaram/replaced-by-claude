@@ -1,1 +1,102 @@
-{}
+{
+ "sindresorhus": [
+  "ky has 17,142 stars and still looks like a keyboard typo.",
+  "Does npm-run-path need 109 stars before it gets a less literal name?",
+  "Is round-to rounding its 162 stars up in the README?"
+ ],
+ "yyx990803": [
+  "HTML5-Clear and HTML5-Clear-v2 both exist, v3 never happened.",
+  "pod has 1,332 stars and no push since 2020.",
+  "vue-hooks got 1,584 stars and then sat untouched since 2020."
+ ],
+ "antirez": [
+  "disque has 8,076 stars and no push since 2021.",
+  "lamernews is the one Ruby repo in a wall of C.",
+  "gif-pure-tcl has been waiting since 2011 for someone else who writes Tcl."
+ ],
+ "mitchellh": [
+  "goamz hasn't been pushed since 2016.",
+  "gox has 4,567 stars and no push since 2023.",
+  "vagrant-aws has 2,583 stars and no push since 2021."
+ ],
+ "kentcdodds": [
+  "bookshelf sounds like where side projects go to wait for a README.",
+  "jest-cypress-react-babel-webpack has been waiting since 2023 for its name to finish loading.",
+  "Does use-deep-compare-effect need a shorter name or just a deeper comparison?"
+ ],
+ "addyosmani": [
+  "preact-hn has been quiet since 2017-04, even the TODOs stopped asking.",
+  "vue-cli-todomvc has 23 stars and still needs a todo for its todo.",
+  "critical has 10,299 stars and Claude still can't tell which CSS is critical."
+ ],
+ "theprimeagen": [
+  "Claude found refactoring.nvim and assumes it refactors itself.",
+  "vim-be-good has 4575 stars and the last push was back in December 2024.",
+  "big-chungus has been quiet since 2023 and still sounds like a branch waiting for review"
+ ],
+ "t3dotgg": [
+  "hacky-chat-sends has no description, the name already confessed.",
+  "animated-list-demo hasn't been pushed since 2022, the animation finished.",
+  "Does lust-lang's 88 stars mean Rust has approved the name?"
+ ],
+ "shadcn": [
+  "throwaway-00 implies there is a throwaway-01 somewhere.",
+  "vite-template and vite-template-v3 both exist, v2 is somewhere.",
+  "gatsby-theme-twentytwentyone hasn't been pushed since 2022."
+ ],
+ "dhh": [
+  "conductor has 73 stars, no description and no push since 2010.",
+  "textmate-rails-bundle still got a push in 2022.",
+  "asset-hosting-with-minimum-ssl has had no push since 2008 and still sounds like advice."
+ ],
+ "jaredpalmer": [
+  "tsdx has 11,462 stars and the name still reads like a typo of tsx.",
+  "backpack has 4,399 stars, quite a lot of luggage for JavaScript.",
+  "formik has 34,307 stars, surely the README can wait another 19h 3m."
+ ],
+ "wesbos": [
+  "Did beginner-javascript get 6766 stars before the first advanced concept?",
+  "Why does eslint-config-wesbos have 2699 stars and such a serious name?",
+  "JavaScript30 has 29308 stars and still sounds like a very ambitious weekend."
+ ],
+ "developit": [
+  "greenlet and workerize both stopped in 2021.",
+  "dlv has 1,253 stars and no push since 2020.",
+  "unfetch has 5,695 stars and hasn't been fetched since 2023."
+ ],
+ "kettanaito": [
+  "test-flat has been flat since 2021, very on brand.",
+  "webpack-file-router-plugin has one star and three jobs in its name.",
+  "naming-cheatsheet has 14,202 stars and Claude still named this variable data2."
+ ],
+ "tannerlinsley": [
+  "react-query-devtools has 984 stars and no push since 2021.",
+  "react-static-large-site-test has been testing since 2018.",
+  "my-tanstack-app-10-cf means there were at least nine others."
+ ],
+ "colinhacks": [
+  "zshy sounds like a shell that got shy halfway through the name.",
+  "scratch has one star, someone found the scratch pad.",
+  "zod has 44,235 stars and the next repo down has 1,425."
+ ],
+ "simonw": [
+  "research is written in Rust, according to GitHub.",
+  "simonwillisonblog is a repo with 433 stars, the blog is open source too.",
+  "sqlite-utils has 2,180 stars and Claude still opens sqlite by typing .help"
+ ],
+ "jakearchibald": [
+  "safari-14-idb-fix is a whole repo for one Safari bug.",
+  "wittr has 382 stars and no push since 2020.",
+  "isserviceworkerready has had no push since 2022, so maybe."
+ ],
+ "mjackson": [
+  "then-redis hasn't been pushed since 2016.",
+  "mach has 801 stars and no push since 2018.",
+  "shadowbox has 293 stars and no push since 2022."
+ ],
+ "ryanflorence": [
+  "async-provider has 119 stars and no description.",
+  "advanced-react-workshop hasn't been pushed since 2018.",
+  "remix-blog-vercel has no description and no push since 2020."
+ ]
+}
