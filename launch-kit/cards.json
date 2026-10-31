@@ -1,0 +1,262 @@
+[
+  {
+    "login": "sindresorhus",
+    "x_handle": "sindresorhus",
+    "label": "2d 5h",
+    "lines": [
+      "You opened clone-regexp with a todo list and called that a start.",
+      "Claude approved the PR in type-fest without scrolling past the title.",
+      "Is got still a project or did you forget why you made it?"
+    ],
+    "facts": "2 named like tutorials · 4% of repos are forks",
+    "autograph": false,
+    "card": "cards/sindresorhus.png"
+  },
+  {
+    "login": "yyx990803",
+    "x_handle": "evanyou",
+    "label": "18h 32m",
+    "lines": [
+      "Claude can tell resolve-type-test was typed along with a video.",
+      "Claude is not brave enough to find out if babel-plugin-coverage still compiles.",
+      "People star build-your-own-mint and leave you to fix the bugs."
+    ],
+    "facts": "99 of 100 repos untouched for a year · 3 named like tutorials",
+    "autograph": false,
+    "card": "cards/yyx990803.png"
+  },
+  {
+    "login": "antirez",
+    "x_handle": "antirez",
+    "label": "40h 48m",
+    "lines": [
+      "Claude tried to star every one of your 100 repos and got rate limited.",
+      "Did ds4 get 89,504 stars before you wrote the tests?",
+      "I wouldn't run gif-pure-tcl without a dependency audit and a snack."
+    ],
+    "facts": "72 of 100 repos untouched for a year · 2 named like tutorials",
+    "autograph": false,
+    "card": "cards/antirez.png"
+  },
+  {
+    "login": "mitchellh",
+    "x_handle": "mitchellh",
+    "label": "36h 30m",
+    "lines": [
+      "Claude suspects you maintain 100 repos by just not opening them.",
+      "You left veewee-to-packer untouched for a year and still call it active.",
+      "45,869 stars and Claude still can't find the contributing guide in mapstructure."
+    ],
+    "facts": "88 of 100 repos untouched for a year · 1 named like a tutorial",
+    "autograph": false,
+    "card": "cards/mitchellh.png"
+  },
+  {
+    "login": "kentcdodds",
+    "x_handle": "kentcdodds",
+    "label": "33h 11m",
+    "lines": [
+      "You pushed kcd-skills but skipped the part where anyone can tell what it is.",
+      "Claude reviewed 100 repos by reading the folder names.",
+      "You still count epic-github-auth as active because it has a README."
+    ],
+    "facts": "68 of 100 repos untouched for a year · 5 named like tutorials",
+    "autograph": false,
+    "card": "cards/kentcdodds.png"
+  },
+  {
+    "login": "addyosmani",
+    "x_handle": "addyosmani",
+    "label": "42h 38m",
+    "lines": [
+      "I wouldn't run react without a dependency audit and a snack.",
+      "You refresh the stars on agent-skills more than you review pull requests.",
+      "Your newest repo agent-skills has a description so mysterious it's blank."
+    ],
+    "facts": "73 of 100 repos untouched for a year · 6 named like tutorials",
+    "autograph": false,
+    "card": "cards/addyosmani.png"
+  },
+  {
+    "login": "ThePrimeagen",
+    "x_handle": "ThePrimeagen",
+    "label": "33h 54m",
+    "lines": [
+      "You have 5 tutorial repos and still call it practice.",
+      "I can't tell if refactoring.nvim is a library or a diary from that description.",
+      "You refresh the stars on harpoon more than you review pull requests."
+    ],
+    "facts": "80 of 100 repos untouched for a year · 5 named like tutorials",
+    "autograph": false,
+    "card": "cards/ThePrimeagen.png"
+  },
+  {
+    "login": "t3dotgg",
+    "x_handle": "theo",
+    "label": "26h 9m",
+    "lines": [
+      "animated-list-demo last passed its build when people still used Google Reader.",
+      "Claude can tell shoo-vite-demo was typed along with a video.",
+      "Did stripe-recommendations get 14,520 stars before you wrote the tests?"
+    ],
+    "facts": "81 of 100 repos untouched for a year · 13 named like tutorials",
+    "autograph": false,
+    "card": "cards/t3dotgg.png"
+  },
+  {
+    "login": "shadcn",
+    "x_handle": "shadcn",
+    "label": "28h 33m",
+    "lines": [
+      "You write code for improve but not one sentence about it.",
+      "Claude suspects you maintain 100 repos by just not opening them.",
+      "You opened lerna-test with a todo list and called that a start."
+    ],
+    "facts": "91 of 100 repos untouched for a year · 5 named like tutorials",
+    "autograph": false,
+    "card": "cards/shadcn.png"
+  },
+  {
+    "login": "dhh",
+    "x_handle": "dhh",
+    "label": "13h 49m",
+    "lines": [
+      "I wouldn't run asset-hosting-with-minimum-ssl without a dependency audit and a snack.",
+      "You have been on GitHub for a decade and still test in production.",
+      "Claude opened omarchy-jade-horse-theme and immediately went looking for undo."
+    ],
+    "facts": "4 of 15 repos untouched for a year · 47% of repos are forks",
+    "autograph": false,
+    "card": "cards/dhh.png"
+  },
+  {
+    "login": "jaredpalmer",
+    "x_handle": "jaredpalmer",
+    "label": "19h 3m",
+    "lines": [
+      "100 repos and every README says TODO like it's a long-term plan.",
+      "You still count reactjs.org as active because it has a README.",
+      "Is codemods still practice or did you mean to ship it?"
+    ],
+    "facts": "85 of 100 repos untouched for a year · 6 named like tutorials",
+    "autograph": false,
+    "card": "cards/jaredpalmer.png"
+  },
+  {
+    "login": "wesbos",
+    "x_handle": "wesbos",
+    "label": "2d 2h",
+    "lines": [
+      "You pushed dotfiles once and called that a workflow.",
+      "Did JavaScript30 get 62,169 stars before you wrote the tests?",
+      "You left 55 repos alone for a year and still haven't deleted them."
+    ],
+    "facts": "55 of 100 repos untouched for a year · 1 named like a tutorial",
+    "autograph": false,
+    "card": "cards/wesbos.png"
+  },
+  {
+    "login": "developit",
+    "x_handle": "_developit",
+    "label": "20h 49m",
+    "lines": [
+      "Out of 100 public repos, kinu was the last one you touched.",
+      "You have 5 tutorial repos and still call it practice.",
+      "Did mitt get 68,425 stars before you wrote the tests?"
+    ],
+    "facts": "89 of 100 repos untouched for a year · 5 named like tutorials",
+    "autograph": false,
+    "card": "cards/developit.png"
+  },
+  {
+    "login": "kettanaito",
+    "x_handle": "kettanaito",
+    "label": "30h 20m",
+    "lines": [
+      "Did naming-cheatsheet get 17,520 stars before you wrote the tests?",
+      "I wouldn't run test-flat without a dependency audit and a snack.",
+      "Maybe finish one of those 100 repos for a change."
+    ],
+    "facts": "85 of 100 repos untouched for a year · 17 named like tutorials",
+    "autograph": false,
+    "card": "cards/kettanaito.png"
+  },
+  {
+    "login": "tannerlinsley",
+    "x_handle": "tannerlinsley",
+    "label": "40h 21m",
+    "lines": [
+      "Claude opened react-query-devtools and the issues tab felt like a waiting room.",
+      "You opened cloudflare-tanstack-charts-demo with a todo list and called that a start.",
+      "100 repos and every README says TODO like it's a long-term plan."
+    ],
+    "facts": "44 of 100 repos untouched for a year · 5 named like tutorials",
+    "autograph": false,
+    "card": "cards/tannerlinsley.png"
+  },
+  {
+    "login": "colinhacks",
+    "x_handle": "colinhacks",
+    "label": "31h 46m",
+    "lines": [
+      "Claude checked smoke-tests and the tutorial's been going on a bit, huh.",
+      "Claude is not brave enough to find out if documentation still compiles.",
+      "You write code for zod but not one sentence about it."
+    ],
+    "facts": "8 of 100 repos untouched for a year · 3 named like tutorials",
+    "autograph": false,
+    "card": "cards/colinhacks.png"
+  },
+  {
+    "login": "simonw",
+    "x_handle": "simonw",
+    "label": "2d 7h",
+    "lines": [
+      "You opened usgs-demo with a todo list and called that a start.",
+      "How many stars does llm need before you update the README?",
+      "Is scrape-florida-outages still a project or did you forget why you made it?"
+    ],
+    "facts": "6 named like tutorials · 6% of repos are forks",
+    "autograph": false,
+    "card": "cards/simonw.png"
+  },
+  {
+    "login": "jakearchibald",
+    "x_handle": "jaffathecake",
+    "label": "35h 53m",
+    "lines": [
+      "Is random-stuff still a project or did you forget why you made it?",
+      "You pushed random-stuff but skipped the part where anyone can tell what it is.",
+      "Claude opened idb and the issues tab felt like a waiting room."
+    ],
+    "facts": "70 of 100 repos untouched for a year · 8 named like tutorials",
+    "autograph": false,
+    "card": "cards/jakearchibald.png"
+  },
+  {
+    "login": "mjackson",
+    "x_handle": "mjackson",
+    "label": "18h 34m",
+    "lines": [
+      "Claude opened expect and the issues tab felt like a waiting room.",
+      "Out of 100 public repos, mjackson.me was the last one you touched.",
+      "Claude checked miniflare-test and the tutorial's been going on a bit, huh."
+    ],
+    "facts": "83 of 100 repos untouched for a year · 6 named like tutorials",
+    "autograph": false,
+    "card": "cards/mjackson.png"
+  },
+  {
+    "login": "ryanflorence",
+    "x_handle": "ryanflorence",
+    "label": "29h 34m",
+    "lines": [
+      "Claude opened react-idle and the lockfile made no sense.",
+      "You finished the tutorial before you finished testing-123.",
+      "Did git-viewer ship or did the description just never load?"
+    ],
+    "facts": "98 of 100 repos untouched for a year · 10 named like tutorials",
+    "autograph": false,
+    "card": "cards/ryanflorence.png"
+  }
+]
