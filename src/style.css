@@ -150,9 +150,12 @@ button:disabled {
 }
 
 .status {
-  min-height: 1.5em;
   margin: 12px 0 0;
   color: var(--muted);
+}
+
+.status:empty {
+  display: none;
 }
 
 .status.is-error {
@@ -190,7 +193,7 @@ button:disabled {
 .badge {
   display: inline-block;
   margin: 0 0 12px;
-  padding: 2px 10px 13px;
+  padding: 6px 14px;
   border: 1px solid var(--accent);
   border-radius: 999px;
   color: var(--accent);
