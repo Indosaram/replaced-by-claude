@@ -111,6 +111,7 @@ export function extractSignals(user: GhUser, repos: GhRepo[], now: Date): Signal
 }
 
 export function clampMinutes(m: number): number {
+  if (!Number.isFinite(m)) return MIN_MINUTES;
   return Math.min(MAX_MINUTES, Math.max(MIN_MINUTES, m));
 }
 

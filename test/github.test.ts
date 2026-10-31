@@ -175,6 +175,12 @@ describe("fetchProfile", () => {
     expect(r).toEqual({ ok: false, error: { kind: "offline" } });
   });
 
+  test("ok response with invalid JSON -> busy", async () => {
+    const { impl } = fakeFetch(() => new Response("not json", { status: 200 }));
+    const r = await fetchProfile("torvalds", { fetchImpl: impl, storage: null });
+    expect(r).toEqual({ ok: false, error: { kind: "busy" } });
+  });
+
   test("500 -> unknown with status", async () => {
     const { impl } = fakeFetch(() => json({}, { status: 500 }));
     const r = await fetchProfile("torvalds", { fetchImpl: impl, storage: null });

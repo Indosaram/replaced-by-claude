@@ -190,13 +190,17 @@ button:disabled {
   font-size: 15px;
 }
 
+.result-label:focus {
+  outline: none;
+}
+
 .badge {
   display: inline-block;
   margin: 0 0 12px;
   padding: 6px 14px;
   border: 1px solid var(--accent);
   border-radius: 999px;
-  color: var(--accent);
+  color: #9a3412;
   font-weight: 600;
   line-height: 1.2;
 }

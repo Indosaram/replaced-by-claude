@@ -47,7 +47,7 @@
 
       <section id="result" class="result" hidden>
         <p class="result-kicker">Claude replaces you in</p>
-        <p id="result-label" class="result-label"></p>
+        <p id="result-label" class="result-label" tabindex="-1"></p>
         <p id="facts" class="facts"></p>
         <p id="badge" class="badge" hidden></p>
         <ol id="verdicts" class="verdicts"></ol>
@@ -58,7 +58,7 @@
           <button id="share-btn" class="btn-primary" type="button">Share on X</button>
           <button id="download-btn" class="btn-secondary" type="button">Download card</button>
         </div>
-        <p id="share-hint" class="status"></p>
+        <p id="share-hint" class="status" aria-live="polite"></p>
         <a
           id="follow-link"
           class="follow"

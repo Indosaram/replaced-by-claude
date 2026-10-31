@@ -81,7 +81,7 @@ async function getJson<T>(fetchImpl: typeof fetch, url: string): Promise<Fetched
   try {
     return { ok: true, data: (await res.json()) as T };
   } catch {
-    return { ok: false, error: { kind: "unknown", status: res.status } };
+    return { ok: false, error: { kind: "busy" } };
   }
 }
 

@@ -104,7 +104,7 @@ describe("analyze", () => {
     expect(r.signals.langCount).toBe(0);
     expect(r.signals.noDescriptionCount).toBe(3);
     expect(r.signals.totalStars).toBe(0);
-    expect(r.signals.newestRepoName).toBe("c"); // non-fork preferred, newest push
+    expect(r.signals.newestRepoName).toBe("nully-gamma"); // non-fork preferred, newest push
     expect(r.signals.mostStarredRepoName).toBeNull();
     const json = JSON.stringify(r);
     expect(json).not.toContain("NaN");
@@ -149,6 +149,7 @@ describe("analyze", () => {
   test("minutes are clamped to [3, 129600]", () => {
     expect(clampMinutes(-5)).toBe(3);
     expect(clampMinutes(0)).toBe(3);
+    expect(clampMinutes(NaN)).toBe(3);
     expect(clampMinutes(1e9)).toBe(129_600);
     for (const stars of [0, 10, 1_000_000_000_000]) {
       const f = starFixture(stars);

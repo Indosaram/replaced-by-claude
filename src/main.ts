@@ -117,6 +117,7 @@ function showResult(login: string, r: Result): void {
   exampleEl.hidden = true;
   resultEl.hidden = false;
   setStatus("");
+  labelEl.focus({ preventScroll: false });
 
   const myRun = ++runId;
   currentBlob = null;
@@ -156,10 +157,11 @@ form.addEventListener("submit", async (ev) => {
   const t0 = performance.now();
   try {
     const res = await fetchProfile(login);
-    history.replaceState(null, "", `?u=${encodeURIComponent(login)}`);
     if (res.ok) {
+      const canonical = res.profile.user.login;
+      history.replaceState(null, "", `?u=${encodeURIComponent(canonical)}`);
       const r = analyze(res.profile.user, res.profile.repos, new Date());
-      showResult(login, r);
+      showResult(canonical, r);
       document.documentElement.dataset.renderMs = String(Math.round(performance.now() - t0));
     } else {
       resultEl.hidden = true;

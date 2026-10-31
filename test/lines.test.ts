@@ -64,7 +64,8 @@ describe("pickLines", () => {
         if (s.publicRepos >= 1) {
           const names = [s.tutorialRepoName, s.oldestStaleRepoName, s.mostStarredRepoName, s.newestRepoName].filter(Boolean) as string[];
           const slotted = a.filter((l) =>
-            names.some((n) => l.includes(n)) || l.includes(String(s.publicRepos)) || l.includes(String(s.staleRepoCount)) || l.includes(String(s.tutorialRepoCount)));
+            names.some((n) => l.includes(n)) ||
+            [s.totalPublicRepos, s.staleRepoCount, s.tutorialRepoCount].some((n) => n > 0 && new RegExp(`\\b${n} (public |tutorial )?repos?\\b`).test(l)));
           expect(slotted.length).toBeGreaterThanOrEqual(2);
         }
       }
