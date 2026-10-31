@@ -71,7 +71,7 @@ describe("pickLines", () => {
     });
   }
   test("empty profile still yields 3 clean lines", () => {
-    const s = { ...fixtures.junior, publicRepos: 0, newestRepoName: null, mostStarredRepoName: null, oldestStaleRepoName: null,
+    const s = { ...fixtures.junior, publicRepos: 0, totalPublicRepos: 0, newestRepoName: null, mostStarredRepoName: null, oldestStaleRepoName: null,
       tutorialRepoName: null, tutorialRepoCount: 0, staleRepoCount: 0, topLanguages: [], totalStars: 0, noDescriptionCount: 0 };
     for (let seed = 0; seed < 50; seed++) {
       const a = pickLines(s, seed);
@@ -80,7 +80,17 @@ describe("pickLines", () => {
     }
   });
   test("singular repo grammar", () => {
-    const s = { ...fixtures.junior, tutorialRepoCount: 1, publicRepos: 1, staleRepoCount: 1 };
+    const s = { ...fixtures.junior, tutorialRepoCount: 1, publicRepos: 1, totalPublicRepos: 1, staleRepoCount: 1 };
     for (let seed = 0; seed <= 200; seed++) for (const l of pickLines(s, seed)) expect(l).not.toMatch(/\b1 (public |tutorial )?repos\b/);
+  });
+  test("heavy users: lines use the real repo total, never the 100-repo sample", () => {
+    const s = { ...fixtures.junior, publicRepos: 100, totalPublicRepos: 351 };
+    expect(triggersFor(s)).toContain("manyRepos");
+    for (let seed = 0; seed <= 100; seed++) {
+      for (const l of pickLines(s, seed)) {
+        expect(l).not.toContain("100 repos");
+        expect(l).not.toContain("100 public repos");
+      }
+    }
   });
 });

@@ -242,9 +242,61 @@ describe("extractSignals", () => {
     expect(extractSignals({ ...base, created_at: "2011-09-03T15:26:22Z" }, [], NOW).accountAgeYears).toBe(15);
   });
 
-  test("uses the repo list length, not user.public_repos", () => {
+  test("publicRepos is the sample size, not user.public_repos", () => {
     const s = extractSignals({ login: "x", public_repos: 99, followers: 0, created_at: "2020-01-01T00:00:00Z" }, [], NOW);
     expect(s.publicRepos).toBe(0);
+    expect(s.totalPublicRepos).toBe(99);
+  });
+
+  test("totalPublicRepos reflects the real count while publicRepos stays the 100-repo sample", () => {
+    const sample = Array.from({ length: 100 }, (_, i) => repo({ name: `r${i}` }));
+    const s = extractSignals({ login: "x", public_repos: 351, followers: 0, created_at: "2020-01-01T00:00:00Z" }, sample, NOW);
+    expect(s.totalPublicRepos).toBe(351);
+    expect(s.publicRepos).toBe(100);
+    expect(s.staleRatio).toBe(0);
+  });
+
+  test("totalPublicRepos never drops below the sample size", () => {
+    const sample = [repo({ name: "a" }), repo({ name: "b" })];
+    const s = extractSignals({ login: "x", public_repos: 1, followers: 0, created_at: "2020-01-01T00:00:00Z" }, sample, NOW);
+    expect(s.totalPublicRepos).toBe(2);
+  });
+
+  test("fork-only repos are never named, but still counted", () => {
+    const s = extractSignals(
+      { login: "x", public_repos: 4, followers: 0, created_at: "2020-01-01T00:00:00Z" },
+      [
+        repo({ name: "react", fork: true, stargazers_count: 200_000, pushed_at: "2015-01-01T00:00:00Z" }),
+        repo({ name: "todo-fork", fork: true, pushed_at: "2015-01-01T00:00:00Z" }),
+        repo({ name: "mine", stargazers_count: 5, pushed_at: "2020-01-01T00:00:00Z" }),
+        repo({ name: "fresh", stargazers_count: 1, pushed_at: "2026-10-01T00:00:00Z" }),
+      ],
+      NOW,
+    );
+    expect(s.oldestStaleRepoName).toBe("mine");
+    expect(s.mostStarredRepoName).toBe("mine");
+    expect(s.tutorialRepoName).toBeNull();
+    expect(s.staleRepoCount).toBe(3);
+    expect(s.tutorialRepoCount).toBe(1);
+    expect(s.totalStars).toBe(200_006);
+  });
+
+  test("an all-fork profile names no repo at all", () => {
+    const s = extractSignals(
+      { login: "x", public_repos: 2, followers: 0, created_at: "2020-01-01T00:00:00Z" },
+      [
+        repo({ name: "react", fork: true, stargazers_count: 9, pushed_at: "2015-01-01T00:00:00Z" }),
+        repo({ name: "demo", fork: true, stargazers_count: 3, pushed_at: "2026-10-01T00:00:00Z" }),
+      ],
+      NOW,
+    );
+    expect(s.newestRepoName).toBeNull();
+    expect(s.oldestStaleRepoName).toBeNull();
+    expect(s.mostStarredRepoName).toBeNull();
+    expect(s.tutorialRepoName).toBeNull();
+    expect(s.publicRepos).toBe(2);
+    expect(s.staleRepoCount).toBe(1);
+    expect(s.tutorialRepoCount).toBe(1);
   });
 });
 

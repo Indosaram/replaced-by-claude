@@ -190,8 +190,8 @@ export function triggersFor(s: Signals): Trigger[] {
   if (s.totalStars >= 1000) out.push("highStars");
   if (s.langCount >= 4) out.push("polyglot");
   if (s.noDescriptionCount >= 3) out.push("noDescriptions");
-  if (s.publicRepos >= 60) out.push("manyRepos");
-  if (s.publicRepos >= 1 && s.publicRepos <= 5) out.push("fewRepos");
+  if (s.totalPublicRepos >= 60) out.push("manyRepos");
+  if (s.totalPublicRepos >= 1 && s.totalPublicRepos <= 5) out.push("fewRepos");
   if ((top === "JavaScript" || top === "TypeScript") && s.langCount <= 2) out.push("singleLanguageJS");
   if (top === "Python" && s.langCount <= 2) out.push("singleLanguagePython");
   if (s.accountAgeYears < 2) out.push("newAccount");
@@ -207,7 +207,7 @@ function slotsFor(s: Signals, t: Trigger): Slots {
   if (t === "tutorialRepos") repo = s.tutorialRepoName;
   else if (t === "staleRepos") repo = s.oldestStaleRepoName;
   else if (t === "highStars") repo = s.mostStarredRepoName;
-  const count = t === "tutorialRepos" ? s.tutorialRepoCount : s.publicRepos;
+  const count = t === "tutorialRepos" ? s.tutorialRepoCount : s.totalPublicRepos;
   return {
     repo: repo || null,
     stale: s.staleRepoCount > 0 ? String(s.staleRepoCount) : "",

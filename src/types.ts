@@ -20,8 +20,10 @@ export interface GhRepo {
 
 /** Facts computed from the user + repo list. Every ratio is 0 when there are 0 repos. */
 export interface Signals {
-  /** repos.length of the list we were given (not user.public_repos). */
+  /** repos.length of the list we were given (at most 100, not user.public_repos). Denominator for ratios. */
   publicRepos: number;
+  /** max(user.public_repos, repos.length): the real public repo count, for lines that name a total. */
+  totalPublicRepos: number;
   forkRatio: number;
   totalStars: number;
   /** Up to 3 languages by repo count (ties alphabetical), nulls skipped. */
@@ -39,13 +41,13 @@ export interface Signals {
   noDescriptionCount: number;
   accountAgeYears: number;
   followers: number;
-  /** Most recently pushed repo, non-forks preferred. */
+  /** Most recently pushed non-fork repo; null when every repo is a fork. */
   newestRepoName: string | null;
-  /** Repo with the most stars; null when there are no stars. */
+  /** Non-fork repo with the most stars; null when there are no stars. */
   mostStarredRepoName: string | null;
-  /** Oldest pushed_at among stale repos; null when none are stale. */
+  /** Oldest pushed_at among stale non-fork repos; null when none are stale. */
   oldestStaleRepoName: string | null;
-  /** First repo whose name looks like a tutorial exercise. */
+  /** First non-fork repo whose name looks like a tutorial exercise. */
   tutorialRepoName: string | null;
 }
 

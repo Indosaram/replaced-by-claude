@@ -72,28 +72,25 @@ export function extractSignals(user: GhUser, repos: GhRepo[], now: Date): Signal
     const pushed = pushedMs(repo);
     if (nowMs - pushed > STALE_MS) {
       stale += 1;
-      if (oldestStale === null || pushed < pushedMs(oldestStale)) oldestStale = repo;
+      if (!repo.fork && (oldestStale === null || pushed < pushedMs(oldestStale))) oldestStale = repo;
     }
     if (TUTORIAL_RE.test(repo.name)) {
       tutorials += 1;
-      tutorialRepo ??= repo;
+      if (!repo.fork) tutorialRepo ??= repo;
     }
-    if (mostStarred === null || repo.stargazers_count > mostStarred.stargazers_count) mostStarred = repo;
 
-    // Non-forks beat forks; within the same kind the later push wins (first seen on ties).
-    if (
-      newest === null ||
-      (newest.fork && !repo.fork) ||
-      (newest.fork === repo.fork && pushed > pushedMs(newest))
-    ) {
-      newest = repo;
-    }
+    // Named repos are never forks; the counts and star totals above still include them.
+    if (repo.fork) continue;
+    if (mostStarred === null || repo.stargazers_count > mostStarred.stargazers_count) mostStarred = repo;
+    // The later push wins (first seen on ties).
+    if (newest === null || pushed > pushedMs(newest)) newest = repo;
   }
 
   const ranked = [...langCounts.entries()].sort((a, b) => b[1] - a[1] || (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0));
 
   return {
     publicRepos: n,
+    totalPublicRepos: Math.max(user.public_repos ?? 0, n),
     forkRatio: ratio(forks, n),
     totalStars,
     topLanguages: ranked.slice(0, 3).map(([lang]) => lang),
