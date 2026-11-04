@@ -7,7 +7,7 @@ Nothing here is posted automatically. Every item below passed the AI-tell review
 Attach: `cards/Indosaram.png`
 
 ```
-I made a site that reads your GitHub and guesses how long until Claude replaces you. I got 35h 38m and it went after one of my repos by name. Try yours
+I made a site that reads your GitHub and guesses how long until Claude replaces you. I got 35h 39m and it went after one of my repos by name. Try yours
 https://indosaram.github.io/replaced-by-claude/
 ```
 
