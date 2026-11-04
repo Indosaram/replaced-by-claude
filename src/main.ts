@@ -99,7 +99,11 @@ function renderExample(): void {
   exampleEl.hidden = false;
 }
 
-function showResult(login: string, r: Result): void {
+function showResult(
+  login: string,
+  r: Result,
+  profile?: { name?: string | null; avatarUrl?: string | null },
+): void {
   const lines = linesFor(login, r);
   const facts = factsLine(r.signals);
 
@@ -126,7 +130,15 @@ function showResult(login: string, r: Result): void {
   shareBtn.disabled = true;
   downloadBtn.disabled = true;
 
-  const blobPromise = renderCard({ login, label: r.label, line: lines[0] ?? "", facts, autograph: r.autograph });
+  const blobPromise = renderCard({
+    login,
+    name: profile?.name ?? null,
+    avatarUrl: profile?.avatarUrl ?? null,
+    label: r.label,
+    line: lines[0] ?? "",
+    facts,
+    autograph: r.autograph,
+  });
   currentBlobPromise = blobPromise;
   blobPromise.then(
     (blob) => {
@@ -161,7 +173,10 @@ form.addEventListener("submit", async (ev) => {
       const canonical = res.profile.user.login;
       history.replaceState(null, "", `?u=${encodeURIComponent(canonical)}`);
       const r = analyze(res.profile.user, res.profile.repos, new Date());
-      showResult(canonical, r);
+      showResult(canonical, r, {
+        name: res.profile.user.name ?? null,
+        avatarUrl: res.profile.user.avatar_url ?? null,
+      });
       document.documentElement.dataset.renderMs = String(Math.round(performance.now() - t0));
     } else {
       resultEl.hidden = true;

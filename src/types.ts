@@ -6,6 +6,7 @@ export interface GhUser {
   created_at: string;
   twitter_username?: string | null;
   name?: string | null;
+  avatar_url?: string | null;
 }
 
 /** Subset of GET /users/{u}/repos. */

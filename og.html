@@ -34,55 +34,143 @@
         background: #f4ede1;
         color: #1f1b16;
       }
+      body {
+        background: linear-gradient(135deg, #faf4e9 0%, #f4ede1 55%, #efe3d2 100%);
+      }
       .frame {
+        position: relative;
         width: 1200px;
         height: 630px;
-        padding: 64px 80px 40px;
+        padding: 48px 80px 36px;
         display: flex;
         flex-direction: column;
       }
-      .kicker {
-        margin: 0 0 18px;
+      .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .profile {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+      .avatar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 58px;
+        height: 58px;
+        border: 2px solid #d9cbb5;
+        border-radius: 50%;
+        background: #e8dcc9;
+        color: #c2410c;
+        font-family: "Fraunces", Georgia, serif;
+        font-weight: 700;
+        font-size: 28px;
+      }
+      .who b {
+        display: block;
         font-family: "Inter", sans-serif;
         font-weight: 600;
         font-size: 22px;
-        letter-spacing: 0.12em;
+      }
+      .who small {
+        display: block;
+        margin-top: 3px;
+        color: #6b6257;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        letter-spacing: 0.18em;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .brand img {
+        width: 34px;
+        height: 34px;
+      }
+      .brand span {
+        font-family: "Fraunces", Georgia, serif;
+        font-weight: 700;
+        font-size: 32px;
+      }
+      .kicker {
+        margin: 28px 0 0;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        letter-spacing: 0.14em;
         text-transform: uppercase;
         color: #6b6257;
       }
       h1 {
-        margin: 0;
-        max-width: 960px;
+        margin: 14px 0 0;
+        max-width: 1000px;
         font-family: "Fraunces", Georgia, serif;
         font-weight: 700;
-        font-size: 72px;
-        line-height: 1.05;
+        font-size: 66px;
+        line-height: 1.04;
       }
       .big {
-        margin: 28px 0 0;
+        margin: 22px 0 0;
         font-family: "Fraunces", Georgia, serif;
         font-weight: 700;
-        font-size: 150px;
+        font-size: 138px;
         line-height: 1;
         color: #c2410c;
       }
       .footer {
+        display: flex;
+        justify-content: space-between;
         margin-top: auto;
-        padding-top: 20px;
-        border-top: 2px solid #d9cbb5;
-        font-family: "Inter", sans-serif;
-        font-weight: 400;
-        font-size: 24px;
+        padding-top: 18px;
+        border-top: 1.5px solid #d9cbb5;
         color: #6b6257;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 21px;
+      }
+      .footer b {
+        color: #c2410c;
+        font-weight: 600;
+      }
+      .watermark {
+        position: absolute;
+        top: 150px;
+        right: -40px;
+        width: 400px;
+        height: 400px;
+        opacity: 0.06;
       }
     </style>
   </head>
   <body>
     <div class="frame">
+      <img class="watermark" src="public/claude-logo.svg" alt="" />
+      <div class="top">
+        <div class="profile">
+          <span class="avatar">?</span>
+          <span class="who">
+            <b>github.com/you</b>
+            <small>YOUR PUBLIC PROFILE</small>
+          </span>
+        </div>
+        <div class="brand">
+          <img src="public/claude-logo.svg" alt="" />
+          <span>Claude</span>
+        </div>
+      </div>
       <p class="kicker">A very scientific estimate</p>
       <h1>How long until Claude replaces you?</h1>
       <p class="big">4h 12m</p>
-      <div class="footer">indosaram.github.io/replaced-by-claude &middot; @indo_yoon</div>
+      <div class="footer">
+        <span>indosaram.github.io/replaced-by-claude</span>
+        <span>by <b>@indo_yoon</b></span>
+      </div>
     </div>
   </body>
 </html>

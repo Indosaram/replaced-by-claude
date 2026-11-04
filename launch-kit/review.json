@@ -14,7 +14,8 @@
       "id": "launch",
       "kind": "post",
       "kept": true,
-      "final": "I made a site that reads your GitHub and guesses how long until Claude replaces you. I got 35h 47m and it went after one of my repos by name. Try yours\nhttps://indosaram.github.io/replaced-by-claude/",
+      "final": "I made a site that reads your GitHub and guesses how long until Claude replaces you. I got 35h 38m and it went after one of my repos by name. Try yours\nhttps://indosaram.github.io/replaced-by-claude/",
+      "revised": "2026-11-04: 35h 47m -> 35h 38m to match the regenerated Indosaram card; wording unchanged, so the review scores below still apply to the text.",
       "ai_score": 1,
       "ai_scores": [
         1,
@@ -106,19 +107,19 @@
       "id": "thread-2",
       "kind": "post",
       "kept": true,
-      "final": "No model runs when you click. I wrote the roast lines ahead of time, around 140 of them, and threw out every one that sounded generated or got too personal.",
-      "ai_score": 2,
+      "final": "No model runs when you click. All the roast lines were made ahead of time, around 140 of them, and I threw out every one that sounded generated or got too personal.",
+      "ai_score": 1,
       "ai_scores": [
-        2,
-        2,
-        1
+        1,
+        1,
+        2
       ],
       "verdicts": [
         "human",
         "human",
         "human"
       ],
-      "jev": 0.35,
+      "jev": 0.34,
       "rounds": 0,
       "attempts": [
         {
@@ -206,7 +207,8 @@
             "jev": 0.23
           }
         ]
-      ]
+      ],
+      "revised": "2026-11 honesty fix: lines were drafted with a model and reviewed, not hand-written"
     },
     {
       "id": "thread-3",

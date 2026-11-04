@@ -7,7 +7,7 @@ Nothing here is posted automatically. Every item below passed the AI-tell review
 Attach: `cards/Indosaram.png`
 
 ```
-I made a site that reads your GitHub and guesses how long until Claude replaces you. I got 35h 47m and it went after one of my repos by name. Try yours
+I made a site that reads your GitHub and guesses how long until Claude replaces you. I got 35h 38m and it went after one of my repos by name. Try yours
 https://indosaram.github.io/replaced-by-claude/
 ```
 
@@ -24,7 +24,7 @@ Built this in one evening. No server, no AI calls at runtime, costs $0. It's one
 ### 2/3
 
 ```
-No model runs when you click. I wrote the roast lines ahead of time, around 140 of them, and threw out every one that sounded generated or got too personal.
+No model runs when you click. All the roast lines were made ahead of time, around 140 of them, and I threw out every one that sounded generated or got too personal.
 ```
 
 ### 3/3
