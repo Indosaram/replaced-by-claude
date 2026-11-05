@@ -9,7 +9,7 @@ const BATCH = 15;
 let fails = 0;
 
 function omo(prompt: string): string {
-  const r = Bun.spawnSync([OMO, "-p", "--no-session", "--model", "mahoquot/gpt-6-luna", "--no-tools", "--no-extensions",
+  const r = Bun.spawnSync([OMO, "-p", "--no-session", "--model", "hyeon-oc/deepseek-v4.1-flash-free", "--no-tools", "--no-extensions",
     "--no-skills", "--no-context-files", "--system-prompt", "Follow the instructions exactly. Output only what is asked.", "-"],
     { stdin: new TextEncoder().encode(prompt), stdout: "pipe", stderr: "pipe" });
   if (r.exitCode !== 0) {
